@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+.name-link {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    lightgreen,
+    lightgreen 50%,
+    white 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  -webkit-text-stroke: 1px black;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-link:hover {
+  background-position: 0 100%;
+  font-size: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-bar-right a {
+  float: right;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar-left a {
+  float: left;
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-bar {
+  height: 100px;
+}
+
+.profile-text {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+  opacity: 0.9;
+}
+
+.recent-works::after {
+  font-weight: 500;
+  padding: 10px;
+  display: inline-block;
+}
+
+.recent-works::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 2px;
+  background: black;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card-images {
+  width: auto;
+  height: auto;
+  padding-left: 8;
+  padding-bottom: 8;
+  object-fit: contain;
+  background-color: #363566;
+}
+
+.card {
   display: flex;
+  max-width: 75%;
+  max-height: 15%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.card-content {
+  flex: "1 0 auto";
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 2%;
+}
+
+.logo {
+  margin: 40px;
+  height: 150px;
+  width: 150px;
+}
+
+.find-out-more {
+  border-radius: 20px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid blueviolet;
+  font-family: sans-serif;
+}
+
+.find-out-more:hover {
+  background-color: blueviolet;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right-arrow {
+  align-self: auto;
+  font-size: 16px;
+  vertical-align: middle;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-dt {
+  padding: 15px;
+  padding-top: 5%;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.contact-dt h1 {
+  font-size: 32px;
+  padding-left: 20px;
+}
+
+.contact-dt p {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.view-all-projects {
+  margin: 10px;
+  margin-top: 35px;
+}
+
+.button-wrapper {
+  text-align: center;
+  height: 10%;
+}
+
+.view-all-icon {
+  font-size: 16px;
+  vertical-align: middle;
+  padding-left: 7px;
+  padding-top: -2px;
+}
+
+.nav-bar-fade {
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.nav-bar-fade:hover {
+  background-color: #FFFACD;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.bottom {
+  height: 50px;
 }
