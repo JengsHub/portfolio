@@ -11,24 +11,24 @@ function TopAppBar() {
       <div>
         <div className="nav-bar">
           <div className="nav-bar-left">
-          <NavLink className="nav-bar-fade" to="/about">
+          <NavLink className="nav-bar-fade" to="/portfolio/about">
               JENG YUE
             </NavLink>
           </div>
           <div className="nav-bar-right">
-          <NavLink className="nav-bar-fade" to="/projects">
+          <NavLink className="nav-bar-fade" to="/portfolio/projects">
               PROJECTS
             </NavLink>
-            <NavLink className="nav-bar-fade" to="/">
+            <NavLink className="nav-bar-fade" to="/portfolio">
               HOME
             </NavLink>
           </div>
         </div>
       </div>
       <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/projects" component={Projects}></Route>
+        <Route exact path="/portfolio" component={Home}></Route>
+        <Route path="/portfolio/about" component={About}></Route>
+        <Route path="/portfolio/projects" component={Projects}></Route>
       </Switch>
     </Container>
   );

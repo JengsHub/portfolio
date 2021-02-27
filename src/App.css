@@ -180,3 +180,38 @@
 .bottom {
   height: 50px;
 }
+
+.mas-flag {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  border-radius: 20px;
+  position: relative;
+}
+
+.sparkle {
+  position: relative;
+  top: -300px;
+  right: -270px;
+  width: 300px;
+  height: 300px;
+}
+
+.intro {
+  margin-top: -250px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  margin-left: 15px;
+}
