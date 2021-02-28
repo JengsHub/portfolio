@@ -1,9 +1,11 @@
 import "../../App.css";
 import { Card, CardMedia, CardContent } from "@material-ui/core";
-import ArrowRightSharpIcon from '@material-ui/icons/ArrowRightSharp';
+import ArrowRightSharpIcon from "@material-ui/icons/ArrowRightSharp";
 import logo from "../../images/logofull.png";
+import { useHistory } from "react-router-dom";
 
 function TASCard() {
+  const history = useHistory();
   return (
     <Card className="card">
       <CardMedia
@@ -15,9 +17,20 @@ function TASCard() {
       </CardMedia>
       <CardContent className="card-content">
         <h2>Tutor Allocation System</h2>
-        <p> In collaboration with Monash University Australia, we developed a system for Monash University to help automate and ease the process of scheduling of staff for classes.</p>
-        <button className="find-out-more">
-            Find out more <ArrowRightSharpIcon className="right-arrow" fontSize='small'/>
+        <p>
+          {" "}
+          In collaboration with Monash University Australia, we developed a
+          system for Monash University to help automate and ease the process of
+          scheduling of staff for classes.
+        </p>
+        <button
+          className="find-out-more"
+          onClick={() =>
+            history.push("/portfolio/projects/TutorAllocationSystem")
+          }
+        >
+          Find out more{" "}
+          <ArrowRightSharpIcon className="right-arrow" fontSize="small" />
         </button>
       </CardContent>
     </Card>

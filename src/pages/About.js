@@ -1,5 +1,5 @@
 import "../App.css";
-import { Box, Container, Grid } from "@material-ui/core";
+import { Box, Container } from "@material-ui/core";
 import image from "../images/Malaysia.jpg";
 import gif from "../images/sparkle.gif";
 
@@ -82,6 +82,7 @@ function About() {
             </ul>
           </div>
         </div>
+        <div className="bottom"></div>
       </Container>
     </Box>
   );

@@ -2,13 +2,15 @@ import "../../App.css";
 import { Card, CardMedia, CardContent } from "@material-ui/core";
 import ArrowRightSharpIcon from "@material-ui/icons/ArrowRightSharp";
 import logo from "../../images/flatland-logo.svg";
+import { useHistory } from "react-router-dom";
 
 function FlatlandCard() {
+  const history = useHistory();
   return (
     <Card className="card">
       <CardMedia
         alt="Flatland Logo"
-        className="card-images"
+        className="card-images yellow"
         title="Flatland Logo"
       >
         <img src={logo} className="logo" alt="Flatland logo"></img>
@@ -26,7 +28,10 @@ function FlatlandCard() {
           With the use of A* algorithm, the goal is to schedule the trains
           without conflicts.{" "}
         </p>
-        <button className="find-out-more">
+        <button className="find-out-more"
+                  onClick={() =>
+                    history.push("/portfolio/projects/FlatlandChallenge")
+                  }>
           Find out more{" "}
           <ArrowRightSharpIcon className="right-arrow" fontSize="small" />
         </button>

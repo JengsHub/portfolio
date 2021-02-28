@@ -72,7 +72,31 @@
   padding-left: 8;
   padding-bottom: 8;
   object-fit: contain;
-  background-color: #363566;
+  background-color: #8686C9;
+}
+
+.blue {
+  background-color: #B2FCF9;
+}
+
+.peach {
+  background-color: #F6CCB7;
+}
+
+.yellow {
+  background-color: #F6F09F;
+}
+
+.green {
+  background-color: #A6F9DD;
+}
+
+.pink {
+  background-color: #FDD9E6;
+}
+
+.orange {
+  background-color: #FFDBB6;
 }
 
 .card {
