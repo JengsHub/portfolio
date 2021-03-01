@@ -20,8 +20,19 @@ function Profile() {
           with the ability to adapt and create a stable environment for me to
           work. Additionally, I am no stranger to software development processes
           such as{" "}
-          <a href="https://www.scrum.org/resources/what-is-scrum">Scrum</a> and{" "}
-          <a href="https://www.scaledagileframework.com/">SAFe</a>.
+          {/* eslint-disable react/jsx-no-target-blank */}
+          <a
+            href="https://www.scrum.org/resources/what-is-scrum"
+            target="_blank"
+          >
+            Scrum
+          </a>{" "}
+          and{" "}
+          {/* eslint-disable react/jsx-no-target-blank */}
+          <a href="https://www.scaledagileframework.com/" target="_blank">
+            SAFe
+          </a>
+          .
         </p>
       </div>
     </Container>

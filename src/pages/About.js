@@ -23,11 +23,14 @@ function About() {
     "Android Studio",
     "Postman",
     "PostgreSQL",
+    "Lucid Charts",
   ];
   const general = [
     "Web Development",
     "Mobile Application Development",
     "Product Design",
+    "Software Modelling",
+    "Database Modelling"
   ];
   const languages = ["English", "Mandarin", "Malay"];
   return (

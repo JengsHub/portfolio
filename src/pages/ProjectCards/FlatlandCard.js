@@ -20,7 +20,8 @@ function FlatlandCard() {
         <p>
           {" "}
           The{" "}
-          <a href="https://flatland.aicrowd.com/intro.html">
+          {/* eslint-disable react/jsx-no-target-blank */}
+          <a href="https://flatland.aicrowd.com/intro.html" target="_blank">
             {" "}
             Flatland Challenge
           </a>{" "}
