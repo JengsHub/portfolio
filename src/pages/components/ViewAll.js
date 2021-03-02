@@ -10,7 +10,7 @@ function ViewAll() {
       <div className="button-wrapper">
         <button
           className="view-all-projects find-out-more"
-          onClick={() => history.push("/projects")}
+          onClick={() => history.push("/portfolio/projects")}
         >
           View All Projects <ViewCarouselIcon className="view-all-icon" />
         </button>

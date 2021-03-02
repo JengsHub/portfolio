@@ -19,7 +19,7 @@ function TopAppBar() {
         <div className="nav-bar">
           <div className="nav-bar-left">
             <NavLink className="nav-bar-fade" to="/portfolio/about">
-              JENG YUE
+              ABOUT
             </NavLink>
           </div>
           <div className="nav-bar-right">

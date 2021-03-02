@@ -17,7 +17,7 @@ function FingerprintCard() {
       </CardMedia>
       <CardContent className="card-content">
         <h2>Fingerprint Recognition</h2>
-        <p> With the reference of research papers published online, my team and I developed a fingerprint recognition system using distinct fingerprint minutiae.</p>
+        <p> With the reference of research papers published online, I developed a fingerprint recognition system using distinct fingerprint minutiae.</p>
         <button className="find-out-more"
                   onClick={() =>
                     history.push("/portfolio/projects/Fingerprint")
