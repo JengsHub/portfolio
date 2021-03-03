@@ -121,7 +121,7 @@ function TASProjectPage() {
           </a>
         </h4>
         <img className="TAS-logo" src={TASlogo} alt="TAS logo"></img>
-        <p className="indent">
+        <p className="indent profile-text">
           This was a collaborative effort from two teams, one based in Malaysia
           and the other in Australia. The goal here was to create a system to
           assist with assigning tutors to classes for Monash University
@@ -131,7 +131,7 @@ function TASProjectPage() {
           <br></br>
         </p>
         <img className="safe-logo" src={safeLogo} alt="SAFe logo"></img>
-        <p className="indent">
+        <p className="indent profile-text">
           My role in this project was a Product Manager as part of the{" "}
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
@@ -151,7 +151,7 @@ function TASProjectPage() {
           <br></br>
           <br></br>
         </p>
-        <p className="indent">
+        <p className="indent profile-text">
           This project was started from scratch. Therefore the first meeting
           with our stakeholders were important for the Product Management Team
           to nail the product vision statement by understanding the needs and
@@ -166,7 +166,7 @@ function TASProjectPage() {
           alt="UML diagram"
         ></img>
         <i className="caption">Conceptual UML Class Diagram</i>
-        <p className="indent">
+        <p className="indent profile-text">
           With the Class Diagram done, we then had to decide the framework and
           tools we will be using for the project. We decided its best to utilize
           a{" "}
@@ -188,7 +188,7 @@ function TASProjectPage() {
         <i className="caption">Initial Database Modal</i>
         <b></b>
         <b></b>
-        <p className="indent">
+        <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}
           Through iterative{" "}
           <a

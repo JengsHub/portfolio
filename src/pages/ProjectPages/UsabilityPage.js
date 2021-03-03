@@ -33,7 +33,7 @@ function UsabilityPage() {
           <p className="info">Last updated : March, 2021</p>
         </h4>
 
-        <p className="indent">
+        <p className="indent profile-text">
           Everyone needs a hobby, especially during Covid-19 lockdowns. To
           better the community, we had the idea to create an application known
           as LocalCooks. The goal of the application was to inspire the local
@@ -44,7 +44,7 @@ function UsabilityPage() {
           preferences.
         </p>
         <h3 className="recent-works">How it happened</h3>
-        <p className="indent">
+        <p className="indent profile-text">
           I would say the most crucial step in designing a UI is to know the
           target users of the application first. My team and I then set out to
           gather information regarding users with the use of questionnaires.
@@ -64,7 +64,7 @@ function UsabilityPage() {
           ></img>
         </a>
         <i className="caption">Google Form Questionnaire</i>
-        <p className="indent">
+        <p className="indent profile-text">
           With the information gathered, we then review information gathered by
           colleagues and conclude similarities and difference. We then
           individually came up with user stories and personas from the
@@ -98,7 +98,7 @@ function UsabilityPage() {
         </div>
         <div className="row">
           <div className="column">
-            <p className="sketch-text">
+            <p className="sketch-text profile-text">
               Now that we know our user, we individually produced some sketches
               of the application. These sketches were produced by applying some
               theories in UI design.
@@ -119,7 +119,7 @@ function UsabilityPage() {
             <img className="Moqup" src={Moqup} alt="Example of Mock up"></img>
           </div>
           <div className="column">
-            <p className="sketch-text">
+            <p className="sketch-text profile-text">
               With our sketches, my team and I got together and decided on pros
               and cons of each idea. We then decided on a final sketch idea and
               proceeded to produce a high-fidelity prototype with Moqups. This
@@ -127,7 +127,7 @@ function UsabilityPage() {
             </p>
           </div>
         </div>
-        <p className="indent">
+        <p className="indent profile-text">
           With an interactive prototype, we set out again to interview users
           with the prototype. In this evaluation, we extract crucial information
           such as how long user take to carry out tasks and how many mistakes

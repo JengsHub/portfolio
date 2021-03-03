@@ -26,7 +26,7 @@ function FingerprintPage() {
           src={Finger}
           alt="History of Biometrics"
         ></img>
-        <p className="indent">
+        <p className="indent profile-text">
           Fingerprint recognition system is undoubtedly one of the most
           favourable validation systems being used nowadays in industries that
           demands infallible security and authentication. The present text
@@ -34,7 +34,7 @@ function FingerprintPage() {
           fingerprint recognition system that uses minutiae extraction to
           distinguish a variety of fingerprints. <br />
         </p>
-        <p className="indent">
+        <p className="indent profile-text">
           Based on readings from research papers, this is the overall
           methodology that we had come up with<i>(pic attached below)</i>.
         </p>
@@ -44,13 +44,13 @@ function FingerprintPage() {
           alt="Methodology used"
         ></img>
         <i className="caption">Methodology Used</i>
-        <p className="indent">
+        <p className="indent profile-text">
           {" "}
           This methodology includes steps to preprocess original fingerprint
           image to ensure that fingerprint features are as clear as possible
           before attempting to extarct them.
         </p>
-        <p className="indent">
+        <p className="indent profile-text">
           For testing, fingerprint images were obtained from sources available
           online such as {/* eslint-disable react/jsx-no-target-blank */}
           <a
@@ -74,7 +74,7 @@ function FingerprintPage() {
           which comprises fingerprints from four individuals, where each
           individual has six fingerprints taken(scanned) in different manners.
         </p>
-        <p className="indent">
+        <p className="indent profile-text">
           Overall, we managed to match the fingerpritn back to its owner with a
           relative high matching score in some case<i>(pic attached below)</i>.
         </p>

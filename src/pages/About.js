@@ -41,7 +41,7 @@ function About() {
         <h2 className="intro">
           👋🏼 I'm an undergraduate who is currently based in Selangor, Malaysia.
         </h2>
-        <p>
+        <p className="profile-text">
           My Passsion is currently in front-end web development, but I do not
           shy away from adversity. I enjoy collaborative work as I am at the
           stage of life where I still have so much to learn from others. Outside

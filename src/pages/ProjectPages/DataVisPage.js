@@ -34,7 +34,7 @@ function DataVisPage() {
             ></img>
           </a>
           <i className="caption">Different Types of Visualisations</i>
-          <p className="indent">
+          <p className="indent profile-text">
             Now more than ever, it is harder for us humans to interpret data.
             This is due to the fact that the volume and variety of data are
             growing exponentially, making data hard to process even for
@@ -61,7 +61,7 @@ function DataVisPage() {
               <i className="caption">Japan as a tourism destination.</i>
             </div>
             <div className="column">
-              <p className="indent center">
+              <p className="indent center profile-text">
                 With data obtained from{" "}
                 <a
                   href="https://data.worldbank.org/indicator/ST.INT.ARVL"
@@ -82,7 +82,7 @@ function DataVisPage() {
           </div>
           <div className="row">
             <div className="column">
-              <p className="indent center">
+              <p className="indent center profile-text">
                 With data obtained from{" "}
                 <a href="https://data.worldbank.org" target="_blank">
                   {" "}

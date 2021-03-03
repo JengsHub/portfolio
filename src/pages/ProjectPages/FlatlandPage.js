@@ -35,14 +35,14 @@ function FlatlandPage() {
             AIcrowd
           </a>
         </i>
-        <p className="indent">
+        <p className="indent profile-text">
           As quoted by AIcrowd, This challenge tackles a key problem in the
           transportation world: How to efficiently manage dense traffic on
           complex railway networks? This is a real-world problem faced by many
           transportation and logistics companies around the world such as the
           Swiss Federal Railways and Deutsche Bahn.
         </p>
-        <p className="indent">
+        <p className="indent profile-text">
           To tackle this problem, I implemented a baseline solution using {" "}
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
@@ -69,7 +69,7 @@ function FlatlandPage() {
           Visualisation of Path Finding using A* Search Algorithm
         </i>
 
-        <p className="indent">
+        <p className="indent profile-text">
           With the results of the A* search Algorithm, I attempt to schedule
           their path taken by ensuring that no two trains are on the same track
           at a time step t. I have also ensure that before moving onto a train
