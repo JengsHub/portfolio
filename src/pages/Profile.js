@@ -7,7 +7,7 @@ function Profile() {
       <div>
         <h1>
           Hi, I'm{" "}
-          <a href="#" className="name-link">
+          <a className="name-link">
             Jeng Yue
           </a>
         </h1>

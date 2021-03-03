@@ -108,9 +108,9 @@ function TASProjectPage() {
     <Box>
       <Container maxWidth="md">
         <h1>👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
-        <h4> Last updated : March, 2021</h4>
 
-        <h4>
+        <h4 className="info-container"> 
+          <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
           <a

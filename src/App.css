@@ -340,3 +340,25 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.info {
+  margin-bottom: 0px;
+}
+
+.info-container {
+  margin-bottom: 50px;
+}
+
+.Fingerprint-History {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Methodology {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 55%;
+  height: 35%;
+}
