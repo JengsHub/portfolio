@@ -435,3 +435,34 @@
 .Bubble:hover {
   opacity: 0.7;
 }
+
+.Question {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 60%;
+  height: 20%;
+  border-radius: 25px;
+}
+
+.Question:hover {
+  opacity: 0.7;
+}
+
+.Persona {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin-top:5%;
+}
+
+.sketch-text{
+  margin-top: 40%;
+}
+
+.Moqup {
+  width: 90%;
+  height: 30%;
+}
