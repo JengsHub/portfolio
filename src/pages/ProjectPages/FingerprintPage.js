@@ -94,6 +94,7 @@ function FingerprintPage() {
         <i className="caption">
           Matching results of 2 fingerprint images of person 6.
         </i>
+        <div className="bottom"></div>
       </Container>
     </Box>
   );

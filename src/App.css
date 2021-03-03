@@ -362,3 +362,28 @@
   width: 55%;
   height: 35%;
 }
+
+.flatland-gif{
+  width: 80%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.youtube {
+  width: 420px;
+  height: 345px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.result {
+  width: 90%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2px;
+}
