@@ -22,6 +22,7 @@ function TASProjectPage() {
     SSmodalImg3;
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     //TODO: IMPROVE MODAL LOGIC
 
     // eslint-disable-next-line

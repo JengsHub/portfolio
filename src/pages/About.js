@@ -30,7 +30,8 @@ function About() {
     "Mobile Application Development",
     "Product Design",
     "Software Modelling",
-    "Database Modelling"
+    "Database Modelling",
+    "Artificial Intelligence"
   ];
   const languages = ["English", "Mandarin", "Malay"];
   return (

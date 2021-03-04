@@ -7,8 +7,12 @@ import UsabilityCard from "./ProjectCards/UsabilityCard";
 import FingerprintCard from "./ProjectCards/FingerprintCard";
 import GitMonitorCard from "./ProjectCards/GitMonitorCard";
 import DataVisCard from "./ProjectCards/DataVisCard";
+import { useEffect } from "react";
 
 function Projects() {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  })
   return (
     <Box>
         <h1>My Projects</h1>

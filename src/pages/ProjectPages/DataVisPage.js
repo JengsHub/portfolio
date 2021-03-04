@@ -3,8 +3,12 @@ import { Box, Container } from "@material-ui/core";
 import DataVis from "../../images/datavis.jpeg";
 import Japan from "../../images/Picture1.jpg";
 import Life from "../../images/Picture2.png";
+import { useEffect } from "react";
 
 function DataVisPage() {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   return (
     <>
       <Box>

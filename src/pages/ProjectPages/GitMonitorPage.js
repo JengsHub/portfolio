@@ -4,13 +4,17 @@ import Github from "../../images/Github.jpg";
 import GitMonitor from "../../images/git monitoring.png";
 import Login from "../../images/Login_page.png";
 import Details from "../../images/Screenshot (17).png";
+import { useEffect } from "react";
 
 function GitMonitorPage() {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   return (
     <Box>
       <Container maxWidth="md">
         <h1>🔎 GitHub Monitoring System 🔍</h1>
-        <h4 className="info-container"> 
+        <h4 className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
@@ -44,7 +48,7 @@ function GitMonitorPage() {
           <img
             className="git-monitoring"
             src={GitMonitor}
-            alt="github monitoring picture"
+            alt="github monitoring"
           ></img>
         </a>
         <i className="caption">Example of monitoring done on repository</i>
@@ -65,17 +69,13 @@ developer.github.com/v3/activity/events/types/#pushevent"
           its duration, attached screenshots below shows the basic UI of the
           project.
         </p>
-        <img
-            className="ui"
-            src={Login}
-            alt="Login Page"
-          ></img>
+        <img className="ui" src={Login} alt="Login Page"></img>
         <i className="caption">Login Page UI</i>
         <img
-            className="ui"
-            src={Details}
-            alt="GitHub repository contributers"
-          ></img>
+          className="ui"
+          src={Details}
+          alt="GitHub repository contributers"
+        ></img>
         <i className="caption">GitHub repository contributers UI</i>
         <div className="bottom"></div>
       </Container>

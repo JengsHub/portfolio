@@ -2,8 +2,12 @@ import "../../App.css";
 import { Box, Container } from "@material-ui/core";
 import FlatlandGif from "../../images/flatland.gif";
 import Result from "../../images/Screenshot (533).png";
+import { useEffect } from "react";
 
 function FlatlandPage() {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   return (
     <Box>
       <Container maxWidth="md">

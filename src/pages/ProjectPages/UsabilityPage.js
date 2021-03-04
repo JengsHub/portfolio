@@ -10,6 +10,7 @@ function UsabilityPage() {
   let modal, modalImg;
 
   useEffect(() => {
+    window.scrollTo(0, 0)
     // eslint-disable-next-line
     modal = document.getElementById("myModal");
     // eslint-disable-next-line
