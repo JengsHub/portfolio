@@ -13,7 +13,7 @@ function FingerprintPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1>🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
+        <h1 className="intro">🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
         <h4 className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}

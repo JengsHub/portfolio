@@ -4,10 +4,14 @@ import TASCard from "./ProjectCards/TASCard";
 import FlatlandCard from "./ProjectCards/FlatlandCard";
 import HealthcareCard from "./ProjectCards/HealthcareCard";
 import ViewAll from "./components/ViewAll";
+import {Helmet} from "react-helmet";
 
 function RecentWorks() {
   return (
     <Container maxWidth="md">
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      </Helmet>
       <p className="recent-works">MY RECENT PROJECTS</p>
       <TASCard></TASCard>
       <FlatlandCard></FlatlandCard>

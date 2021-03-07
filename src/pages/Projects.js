@@ -15,7 +15,7 @@ function Projects() {
   })
   return (
     <Box>
-        <h1>My Projects</h1>
+        <h1 className="intro">My Projects</h1>
         <TASCard></TASCard>
         <FlatlandCard></FlatlandCard>
         <HealthcareCard></HealthcareCard>

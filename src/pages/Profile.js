@@ -5,7 +5,7 @@ function Profile() {
   return (
     <Container maxWidth="md">
       <div>
-        <h1>
+        <h1 className="intro">
           Hi, I'm{" "}
           <a className="name-link">
             Jeng Yue

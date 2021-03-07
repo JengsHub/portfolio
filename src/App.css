@@ -9,55 +9,63 @@
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 500ms ease;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 0.065vw black;
   text-decoration: none;
 }
 
 .name-link:hover {
   background-position: 0 100%;
-  font-size: 50px;
+  font-size: 3.2vw;
 }
 
 .nav-bar-right a {
   float: right;
-  padding: 10px;
-  margin-top: 20px;
-  font-size: 16px;
+  padding: 0.651041vw;
+  margin-top: 1.3vw;
+  font-size: 1.2vw;
   font-weight: 500;
 }
 
 .nav-bar-left a {
   float: left;
-  padding: 5px;
-  margin-top: 20px;
-  font-size: 16px;
+  padding: 0.3255vw;
+  margin-top: 1.302vw;
+  font-size: 1.2vw;
   font-weight: 500;
 }
 
 .nav-bar {
-  height: 100px;
+  height: 6.5vw;
 }
 
 .profile-text {
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-bottom: 80px;
+  font-size: 1.2vw;
+  letter-spacing: 0.065vw;
+  margin-bottom: 5.208vw;
   opacity: 0.9;
 }
 
+.intro {
+  font-size: 2.083vw;
+}
+
+.recent-works{
+  font-size: 0.865vw;
+  font-weight: 700;
+}
+
 .recent-works::after {
-  font-weight: 500;
-  padding: 10px;
+  padding: 0.651vw;
   display: inline-block;
 }
 
 .recent-works::before {
   content: "";
   display: inline-block;
-  width: 35px;
-  height: 2px;
+  width: 2.2786vw;
+  height: 0.130vw;
   background: black;
-  margin-right: 10px;
+  margin-right: 0.651vw;
   vertical-align: middle;
 }
 
@@ -109,28 +117,36 @@
 }
 
 .logo {
-  margin: 40px;
-  height: 150px;
-  width: 150px;
+  margin: 2.6vw;
+  margin-top: 4.55vw;
+  height: 9.76vw;
+  width: 9.76vw;
+}
+
+.git-card-logo{
+  margin: 2.6vw;
+  height: 9.76vw;
+  width: 9.76vw;
 }
 
 .find-out-more {
-  border-radius: 20px;
+  border-radius: 1.3vw;
   color: white;
-  padding-top: 5px;
-  padding-bottom: 4px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 0.325vw;
+  padding-bottom: 0.260vw;
+  padding-left: 0.97vw;
+  padding-right: 0.97vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.3vw;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: white;
   color: black;
-  border: 1px solid blueviolet;
+  border: 0.065vw solid blueviolet;
   font-family: sans-serif;
+  margin-top: 4vw;
 }
 
 .find-out-more:hover {
@@ -140,31 +156,35 @@
 
 .right-arrow {
   align-self: auto;
-  font-size: 16px;
+  font-size: 1.1vw;
   vertical-align: middle;
   position: relative;
 }
 
+.text{
+  font-size: 1.2vw;
+}
+
 .contact-dt {
-  padding: 15px;
+  padding: 0.9765vw;
   padding-top: 5%;
   align-items: center;
   padding-bottom: 5%;
 }
 
 .contact-dt h1 {
-  font-size: 32px;
-  padding-left: 20px;
+  font-size: 3vw;
+  padding-left: 1.3vw;
 }
 
 .contact-dt p {
-  font-size: 20px;
-  padding-left: 25px;
+  font-size: 1vw;
+  padding-left: 1.62vw;
 }
 
 .view-all-projects {
-  margin: 10px;
-  margin-top: 35px;
+  margin: 0.65vw;
+  margin-top: 2.2786vw;
 }
 
 .button-wrapper {
@@ -173,10 +193,10 @@
 }
 
 .view-all-icon {
-  font-size: 16px;
+  font-size: 1.2vw;
   vertical-align: middle;
-  padding-left: 7px;
-  padding-top: -2px;
+  padding-left: 0.4557vw;
+  padding-top: -0.130vw;
 }
 
 .nav-bar-fade {
@@ -184,43 +204,49 @@
   border: none;
   color: black;
   text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1.2vw;
+  margin: 0.26041vw 0.130vw;
   transition: 0.3s;
   text-decoration: none;
 }
 
 .nav-bar-fade:hover {
   background-color: #fffacd;
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 1.30vw;
+  padding: 1.30vw;
 }
 
 .bottom {
-  height: 50px;
+  height: 3.255vw;
+}
+
+.click-clue{
+  opacity: 0.8;
+  font-size: 0.78vw;
+  margin-bottom: -5vw; 
 }
 
 .mas-flag {
-  width: 300px;
-  height: 300px;
+  width: 19.531vw;
+  height: 19.531vw;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border-radius: 20px;
+  border-radius: 1.302vw;
   position: relative;
 }
 
-.sparkle {
+/* .sparkle {
   position: relative;
   top: -300px;
-  right: -270px;
+  right: -15%;
   width: 300px;
   height: 300px;
-}
+} */
 
-.intro {
+/* .intro {
   margin-top: -250px;
-}
+} */
 
 .row::after {
   content: "";
@@ -231,8 +257,8 @@
 .column {
   float: left;
   width: 40%;
-  padding: 10px;
-  margin-left: 15px;
+  padding: 0.651vw;
+  margin-left: 0.976vw;
 }
 
 .indent {
@@ -243,6 +269,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 40%;
 }
 
 .TAS-logo {
@@ -250,9 +277,9 @@
   margin-right: auto;
   display: block;
   background-color: #8686c9;
-  border-radius: 25px;
-  width: 50%;
-  height: 150px;
+  border-radius: 1.627vw;
+  width: 30%;
+  height: 9.765;
 }
 
 .bold {
@@ -260,12 +287,23 @@
 }
 
 .conceptual-diagram {
-  width: 60%;
-  height: 200px;
+  width: 50%;
+  height: 13.028vw;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border-radius: 5px;
+  border-radius: 0.3255208333333333vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.database-diagram {
+  width: 45%;
+  height: 17.028vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 0.3255208333333333vw;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -278,7 +316,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 5.859375vw; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -296,14 +334,30 @@
   height: 85%;
 }
 
+.card-heading {
+  font-size: 1.4vw;
+}
+
+.list-1 {
+  font-size: 1.4vw;
+  margin-left: 1vw;
+  margin-top: -1vw;
+}
+
+.item-list-header{
+  font-size: 1.4vw;
+  margin-bottom: 1.8vw;
+}
+
 .caption {
   margin: auto;
-  margin-bottom: 35px;
+  margin-bottom: 2.278vw;
   display: block;
   width: 80%;
   text-align: center;
   color: black;
   font-weight: 100;
+  font-size: 0.865vw;
 }
 
 .modal-content,
@@ -335,10 +389,10 @@
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top:  0.9765625vw;
+  right: 2.2786458333333335vw;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 2.6vw;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -351,17 +405,20 @@
 }
 
 .info {
-  margin-bottom: 0px;
+  margin-bottom: 0vw;
 }
 
 .info-container {
-  margin-bottom: 50px;
+  margin-bottom: 3.255vw;
+  font-size: 1.17vw;
 }
 
 .Fingerprint-History {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width:40%;
+  height: 20%
 }
 
 .Methodology {
@@ -381,20 +438,20 @@
 }
 
 .youtube {
-  width: 420px;
-  height: 345px;
+  width: 27.34375vw;
+  height: 22.4609375vw;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .result {
-  width: 90%;
+  width: 80%;
   height: 30%;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 0.130vw;
 }
 
 .DataVis {
@@ -414,7 +471,7 @@
 }
 
 .Japan {
-  height: 350px;
+  height: 22.786458333333332vw;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -442,7 +499,7 @@
   display: block;
   width: 60%;
   height: 20%;
-  border-radius: 25px;
+  border-radius: 1.6276041666666667vw;
 }
 
 .Question:hover {
@@ -473,16 +530,16 @@
   display: block;
   width: 30%;
   height: 10%;
-  border-radius: 20px;
+  border-radius: 1.3020833333333333vw;
 }
 
 .git-monitoring {
-  height: 350px;
-  width: 80%;
+  height: 22.786458333333332vw;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: -20px;
+  margin-top: -1.3020833333333333vw;
 }
 
 .git-monitoring:hover {
@@ -490,35 +547,39 @@
 }
 
 .ui {
-  height: 300px;
-  width: 70%;
+  height: 19.53125vw;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: -20px;
+  margin-top: -1.3020833333333333vw;
 }
 
 .column-3 {
   float: left;
   width: 30%;
-  padding: 10px;
+  padding: 0.6510416666666666vw;
 }
 
 .logos {
-  margin-top: -15px;
+  margin-top: -0.9765vw;
 }
 
 .logo-flutter {
-    width:150px;
-    height:50px;
+    width: 9.765625vw;
+    height:3.2552083333333335vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
 .app-ss {
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.email {
+  font-weight:750;
 }

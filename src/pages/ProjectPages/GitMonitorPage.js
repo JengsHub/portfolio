@@ -13,7 +13,7 @@ function GitMonitorPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1>🔎 GitHub Monitoring System 🔍</h1>
+        <h1 className="intro">🔎 GitHub Monitoring System 🔍</h1>
         <h4 className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}

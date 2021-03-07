@@ -13,7 +13,7 @@ function DataVisPage() {
     <>
       <Box>
         <Container maxWidth="md">
-          <h1>📊 Data Visualisation 📈</h1>
+          <h1 className="intro">📊 Data Visualisation 📈</h1>
 
           <h4 className="info-container">
             <p className="info">Last updated : March, 2021</p>

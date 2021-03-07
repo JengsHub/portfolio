@@ -29,7 +29,7 @@ function UsabilityPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1>📱 LocalCooks Usability Project 🖥️</h1>
+        <h1 className="intro">📱 LocalCooks Usability Project 🖥️</h1>
         <h4 className="info-container">
           <p className="info">Last updated : March, 2021</p>
         </h4>
@@ -82,14 +82,13 @@ function UsabilityPage() {
             <i className="caption"> Persona</i>
           </div>
           <div className="column">
-            <p>
+            <p className="profile-text">
               "As a user of the application, I want to be able to switch the
               language of the application as I like so that I can understand the
               user interface." <br></br>
               <i className="caption">- User Story 1</i>
             </p>
-            <br></br>
-            <p>
+            <p className="profile-text">
               "As a owner of smart cooker, I want to be able to see recipes for
               smart cookers instead of normal recipes so that I can cook new
               things with my smart cooker." <br></br>

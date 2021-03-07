@@ -11,7 +11,7 @@ function FlatlandPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1>🚂 Flatland Challenge 🛤️</h1>
+        <h1 className="intro">🚂 Flatland Challenge 🛤️</h1>
         <h4 className="info-container"> 
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}

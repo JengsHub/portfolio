@@ -108,7 +108,7 @@ function TASProjectPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1>👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
+        <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
 
         <h4 className="info-container"> 
           <p className="info">Last updated : March, 2021</p>
@@ -181,7 +181,7 @@ function TASProjectPage() {
         </p>
 
         <img
-          className="conceptual-diagram"
+          className="database-diagram"
           onClick={openDBModal}
           src={DbDraft}
           alt="Database Modal"
@@ -222,21 +222,21 @@ function TASProjectPage() {
           had crafted.
         </p>
         <img
-          className="conceptual-diagram"
+          className="database-diagram"
           onClick={openSS1Modal}
           src={SS1}
           alt="Screenshot 1"
         ></img>
         <i className="caption">Unit Offering Screenshot</i>
         <img
-          className="conceptual-diagram"
+          className="database-diagram"
           onClick={openSS2Modal}
           src={SS2}
           alt="Screenshot 2"
         ></img>
         <i className="caption">File Uploader Screenshot</i>
         <img
-          className="conceptual-diagram"
+          className="database-diagram"
           onClick={openSS3Modal}
           src={SS3}
           alt="Screenshot 3"

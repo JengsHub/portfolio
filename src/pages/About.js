@@ -1,7 +1,7 @@
 import "../App.css";
 import { Box, Container } from "@material-ui/core";
 import image from "../images/Malaysia.jpg";
-import gif from "../images/sparkle.gif";
+// import gif from "../images/sparkle.gif";
 
 function About() {
   const prog_lang = [
@@ -38,7 +38,6 @@ function About() {
     <Box>
       <Container maxWidth="md">
         <img className="mas-flag" src={image} alt="Malaysian Flag"></img>
-        <img className="sparkle" src={gif} alt="sparkle gif"></img>
         <h2 className="intro">
           👋🏼 I'm an undergraduate who is currently based in Selangor, Malaysia.
         </h2>
@@ -52,38 +51,30 @@ function About() {
         </p>
         <div className="row">
           <div className="column">
-            <h2> 👨‍💻 Programming Languages</h2>
-            <ul>
+            <h2 className="item-list-header"> 👨‍💻 Programming Languages</h2>
               {prog_lang.map((items, i) => (
-                <li key={i}>{items}</li>
+                <p className="list-1" key={i}>- {items}</p>
               ))}
-            </ul>
           </div>
           <div className="column">
-            <h2> 🛠️ Tools and Frameworks</h2>
-            <ul>
+            <h2 className="item-list-header"> 🛠️ Tools and Frameworks</h2>
               {tool_n_frame.map((items, i) => (
-                <li key={i}>{items}</li>
+                <p className="list-1" key={i}>- {items}</p>
               ))}
-            </ul>
           </div>
         </div>
         <div className="row">
           <div className="column">
-            <h2> 📖 General</h2>
-            <ul>
+            <h2 className="item-list-header"> 📖 General</h2>
               {general.map((items, i) => (
-                <li key={i}>{items}</li>
+                <p className="list-1" key={i}>- {items}</p>
               ))}
-            </ul>
           </div>
           <div className="column">
-            <h2> 🌐 Language</h2>
-            <ul>
+            <h2 className="item-list-header"> 🌐 Language</h2>
               {languages.map((items, i) => (
-                <li key={i}>{items}</li>
+                <p className="list-1" key={i}>- {items}</p>
               ))}
-            </ul>
           </div>
         </div>
         <div className="bottom"></div>
