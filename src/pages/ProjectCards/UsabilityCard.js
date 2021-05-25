@@ -21,7 +21,9 @@ function TASCard() {
             {" "}
             With the goal of understanding usability, my team and I went through
             the process of a regular UX project to better understand the users
-            needs.<i className="click-clue"> Click to find out more.</i>
+            needs.
+            <br></br>
+            <i className="click-clue"> Click to find out more.</i>
           </p>
         </CardContent>
       </Card>

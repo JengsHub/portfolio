@@ -11,6 +11,7 @@ import UsabilityPage from "./ProjectPages/UsabilityPage";
 import HealthcarePage from "../pages/ProjectPages/HealthcarePage";
 import FlatlandPage from "./ProjectPages/FlatlandPage";
 import GitMonitorPage from "./ProjectPages/GitMonitorPage";
+import BigDataPage from "./ProjectPages/BigDataPage";
 
 function TopAppBar() {
   return (
@@ -67,10 +68,15 @@ function TopAppBar() {
           component={FlatlandPage}
         ></Route>
         <Route
-        exact
-        path="/portfolio/projects/GitMonitoringSystem"
-        component={GitMonitorPage}
-      ></Route>
+          exact
+          path="/portfolio/projects/GitMonitoringSystem"
+          component={GitMonitorPage}
+        ></Route>
+        <Route
+          exact
+          path="/portfolio/projects/BigDataProcessing"
+          component={BigDataPage}
+        ></Route>
       </Switch>
     </Container>
   );

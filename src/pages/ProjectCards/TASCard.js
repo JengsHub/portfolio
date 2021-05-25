@@ -23,7 +23,9 @@ function TASCard() {
             {" "}
             In collaboration with Monash University Australia, we developed a
             system for Monash University to help automate and ease the process
-            of scheduling of staff. <i className="click-clue"> Click to find out more.</i>
+            of scheduling of staff. 
+            <br></br>
+            <i className="click-clue"> Click to find out more.</i>
           </p>
         </CardContent>
       </Card>

@@ -23,7 +23,9 @@ function HealthcareCard() {
           <h2 className="card-heading">Healthcare Monitoring System</h2>
           <p className="text">
             Developed a mobile application which allows for doctors to monitor
-            different health related details of patients.<i className="click-clue"> Click to find out more.</i>
+            different health related details of patients.
+            <br></br>
+            <i className="click-clue"> Click to find out more.</i>
           </p>
         </CardContent>
       </Card>

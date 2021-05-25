@@ -50,7 +50,7 @@
 }
 
 .recent-works{
-  font-size: 0.865vw;
+  font-size: 1.3vw;
   font-weight: 700;
 }
 
@@ -118,7 +118,7 @@
 
 .logo {
   margin: 2.6vw;
-  margin-top: 4.55vw;
+  margin-top: 4.15vw;
   height: 9.76vw;
   width: 9.76vw;
 }
@@ -582,4 +582,40 @@
 
 .email {
   font-weight:750;
+}
+
+.rdd {
+  height: 22.786458333333332vw;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+}
+
+.apache {
+  height: 12.786458333333332vw;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+}
+
+.dataframe {
+  height: 12.786458333333332vw;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
+}
+
+.pipeline {
+  height: 12.786458333333332vw;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3%;
 }

@@ -21,6 +21,7 @@ function DataVisCard() {
           {" "}
           Using Tableau and Vega-Lite Library, I created visualisations for two
           different topics that enables user to easily process information.
+          <br></br>
           <i className="click-clue"> Click to find out more.</i>
         </p>
       </CardContent>

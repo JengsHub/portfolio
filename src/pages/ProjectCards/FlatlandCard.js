@@ -6,9 +6,7 @@ import { useHistory } from "react-router-dom";
 function FlatlandCard() {
   const history = useHistory();
   return (
-    <div onClick={() =>
-      history.push("/portfolio/projects/FlatlandChallenge")
-    }>
+    <div onClick={() => history.push("/portfolio/projects/FlatlandChallenge")}>
       <Card className="card">
         <CardMedia
           alt="Flatland Logo"
@@ -28,9 +26,9 @@ function FlatlandCard() {
             </a>{" "}
             is a multi-train path-planning and scheduling problem on a grid
             world. With the use of A* algorithm, the goal is to schedule the
-            trains without conflicts.{" "} <i className="click-clue"> Click to find out more.</i>
+            trains without conflicts. <br></br>
+            <i className="click-clue"> Click to find out more.</i>
           </p>
-          
         </CardContent>
       </Card>
     </div>

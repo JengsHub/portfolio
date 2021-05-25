@@ -8,6 +8,7 @@ import FingerprintCard from "./ProjectCards/FingerprintCard";
 import GitMonitorCard from "./ProjectCards/GitMonitorCard";
 import DataVisCard from "./ProjectCards/DataVisCard";
 import { useEffect } from "react";
+import BigDataCard from "./ProjectCards/BigDataCard";
 
 function Projects() {
   useEffect(()=>{
@@ -17,6 +18,7 @@ function Projects() {
     <Box>
         <h1 className="intro">My Projects</h1>
         <TASCard></TASCard>
+        <BigDataCard></BigDataCard>
         <FlatlandCard></FlatlandCard>
         <HealthcareCard></HealthcareCard>
         <UsabilityCard></UsabilityCard>
