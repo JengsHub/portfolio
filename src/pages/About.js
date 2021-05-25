@@ -14,6 +14,7 @@ function About() {
     "HTML/CSS",
     "Dart",
     "SQL",
+    "R"
   ];
   const tool_n_frame = [
     "GitHub",
@@ -23,6 +24,7 @@ function About() {
     "Android Studio",
     "Postman",
     "PostgreSQL",
+    "Apache Saprk",
     "Lucid Charts",
   ];
   const general = [

@@ -9,6 +9,7 @@ import GitMonitorCard from "./ProjectCards/GitMonitorCard";
 import DataVisCard from "./ProjectCards/DataVisCard";
 import { useEffect } from "react";
 import BigDataCard from "./ProjectCards/BigDataCard";
+import DataAnalyticsCard from "./ProjectCards/DataAnalyticsCard";
 
 function Projects() {
   useEffect(()=>{
@@ -25,6 +26,7 @@ function Projects() {
         <FingerprintCard></FingerprintCard>
         <GitMonitorCard></GitMonitorCard>
         <DataVisCard></DataVisCard>
+        <DataAnalyticsCard></DataAnalyticsCard>
         <div className="bottom"></div>
     </Box>
   );
