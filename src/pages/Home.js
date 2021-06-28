@@ -2,7 +2,7 @@ import "../App.css";
 import Profile from "./Profile";
 import { Box } from "@material-ui/core";
 import RecentWorks from "./RecentWorks";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 function Home() {
   return (

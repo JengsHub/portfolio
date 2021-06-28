@@ -1,0 +1,9 @@
+.contact-row{
+    display: flex;
+    justify-content: center;
+}
+
+.in-touch {
+    display: flex;
+    justify-content: center;
+}

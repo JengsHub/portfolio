@@ -10,6 +10,7 @@ import DataVisCard from "./ProjectCards/DataVisCard";
 import { useEffect } from "react";
 import BigDataCard from "./ProjectCards/BigDataCard";
 import DataAnalyticsCard from "./ProjectCards/DataAnalyticsCard";
+import Contact from "./Contact/Contact";
 
 function Projects() {
   useEffect(()=>{
@@ -17,7 +18,7 @@ function Projects() {
   })
   return (
     <Box>
-        <h1 className="intro">My Projects</h1>
+        <h1 className="intro-projects">My Projects</h1>
         <TASCard></TASCard>
         <BigDataCard></BigDataCard>
         <FlatlandCard></FlatlandCard>
@@ -27,7 +28,7 @@ function Projects() {
         <GitMonitorCard></GitMonitorCard>
         <DataVisCard></DataVisCard>
         <DataAnalyticsCard></DataAnalyticsCard>
-        <div className="bottom"></div>
+        <Contact></Contact>
     </Box>
   );
 }

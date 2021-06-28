@@ -2,6 +2,7 @@ import "../App.css";
 import "../about.css";
 import { Box, Container } from "@material-ui/core";
 import image from "../images/Malaysia.jpg";
+import Contact from "./Contact/Contact";
 // import gif from "../images/sparkle.gif";
 
 function About() {
@@ -47,7 +48,7 @@ function About() {
           👋🏼 I'm an undergraduate who is currently based in Selangor, Malaysia.
         </h2>
         <p className="profile-text">
-          My Passsion is currently in front-end web/app development, but I do not
+          My Passion is currently in front-end web/app development, but I do not
           shy away from adversity. I enjoy collaborative work as I am at a point
           in my life where I still have so much to learn from others. Outside
           of coding, music 🎶 and sports ⚽ are my go-tos, they impart a sense
@@ -82,8 +83,8 @@ function About() {
               ))}
           </div>
         </div>
-        <div className="bottom"></div>
       </Container>
+      <Contact></Contact>
     </Box>
   );
 }
