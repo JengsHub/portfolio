@@ -1,4 +1,5 @@
 import "../App.css";
+import "../about.css";
 import { Box, Container } from "@material-ui/core";
 import image from "../images/Malaysia.jpg";
 // import gif from "../images/sparkle.gif";
@@ -19,13 +20,14 @@ function About() {
   const tool_n_frame = [
     "GitHub",
     "Express",
-    "React",
+    "React, React Native",
     "Flutter",
     "Android Studio",
     "Postman",
     "PostgreSQL",
     "Apache Saprk",
     "Lucid Charts",
+    "Amazon Web Services"
   ];
   const general = [
     "Web Development",
@@ -36,6 +38,7 @@ function About() {
     "Artificial Intelligence"
   ];
   const languages = ["English", "Mandarin", "Malay"];
+
   return (
     <Box>
       <Container maxWidth="md">
@@ -44,37 +47,37 @@ function About() {
           👋🏼 I'm an undergraduate who is currently based in Selangor, Malaysia.
         </h2>
         <p className="profile-text">
-          My Passsion is currently in front-end web development, but I do not
-          shy away from adversity. I enjoy collaborative work as I am at the
-          stage of life where I still have so much to learn from others. Outside
+          My Passsion is currently in front-end web/app development, but I do not
+          shy away from adversity. I enjoy collaborative work as I am at a point
+          in my life where I still have so much to learn from others. Outside
           of coding, music 🎶 and sports ⚽ are my go-tos, they impart a sense
           of comfort onto me. Feel free to get in contact with me and let's
           chat!!
         </p>
-        <div className="row">
-          <div className="column">
+        <div className="container">
+          <div className="item">
             <h2 className="item-list-header"> 👨‍💻 Programming Languages</h2>
-              {prog_lang.map((items, i) => (
+              {prog_lang.sort().map((items, i) => (
                 <p className="list-1" key={i}>- {items}</p>
               ))}
           </div>
-          <div className="column">
+          <div className="item">
             <h2 className="item-list-header"> 🛠️ Tools and Frameworks</h2>
-              {tool_n_frame.map((items, i) => (
+              {tool_n_frame.sort().map((items, i) => (
                 <p className="list-1" key={i}>- {items}</p>
               ))}
           </div>
         </div>
-        <div className="row">
-          <div className="column">
+        <div className="container">
+          <div className="item">
             <h2 className="item-list-header"> 📖 General</h2>
-              {general.map((items, i) => (
+              {general.sort().map((items, i) => (
                 <p className="list-1" key={i}>- {items}</p>
               ))}
           </div>
-          <div className="column">
+          <div className="item">
             <h2 className="item-list-header"> 🌐 Language</h2>
-              {languages.map((items, i) => (
+              {languages.sort().map((items, i) => (
                 <p className="list-1" key={i}>- {items}</p>
               ))}
           </div>
@@ -84,5 +87,4 @@ function About() {
     </Box>
   );
 }
-
 export default About;

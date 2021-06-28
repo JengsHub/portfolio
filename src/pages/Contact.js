@@ -8,7 +8,7 @@ function Contact() {
       <h1 className="email">
         <MarkunreadMailboxIcon className="email" /> jong0021@student.monash.edu
       </h1>
-      <p className="text">Get in touch with me ✌️! Always down for a collaboration. </p>
+      <p className="text-in-touch">Get in touch with me ✌️! Always down for a collaboration. </p>
     </Container>
   );
 }

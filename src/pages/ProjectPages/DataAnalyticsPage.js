@@ -40,7 +40,9 @@ function DataAnalyticsPage() {
             The figure above is an overview of the Data Science Methodology that
             I have applied while conducting analysis on the dataset. The report
             that I have written can be found 
-            {/* eslint-disable react/jsx-no-target-blank */}<a> here</a>. 
+            {/* eslint-disable react/jsx-no-target-blank */}
+            <a href="s"
+            target="_blank"> here</a>. 
             With the above
             mentioned Data Science Methodology applied, I then proceeded to
             explore and learn on implementing classification models with R and
