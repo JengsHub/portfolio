@@ -7,24 +7,24 @@ import Methodology from "../../images/Screenshot (530).png";
 import { useEffect } from "react";
 
 function FingerprintPage() {
-  useEffect(()=>{
-    window.scrollTo(0, 0)
-  })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <Box>
       <Container maxWidth="md">
         <h1 className="intro">🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
-        <h4 className="info-container">
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
           <a
-            href="https://github.com/JengsHub/TutorAllocationSystem"
+            href="https://github.com/JengsHub/FingerprintRecognition"
             target="_blank"
           >
-            RMB TO LINK THIS
+            https://github.com/JengsHub/FingerprintRecognition
           </a>
-        </h4>
+        </div>
         <img
           className="Fingerprint-History"
           src={Finger}

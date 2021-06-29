@@ -22,7 +22,7 @@ function TASProjectPage() {
     SSmodalImg3;
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     //TODO: IMPROVE MODAL LOGIC
 
     // eslint-disable-next-line
@@ -110,7 +110,7 @@ function TASProjectPage() {
       <Container maxWidth="md">
         <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
 
-        <h4 className="info-container"> 
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
@@ -120,7 +120,7 @@ function TASProjectPage() {
           >
             https://github.com/JengsHub/TutorAllocationSystem
           </a>
-        </h4>
+        </div>
         <img className="TAS-logo" src={TASlogo} alt="TAS logo"></img>
         <p className="indent profile-text">
           This was a collaborative effort from two teams, one based in Malaysia

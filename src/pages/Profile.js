@@ -7,10 +7,7 @@ function Profile() {
     <Container maxWidth="md">
       <div>
         <h1 className="intro">
-          Hi, I'm{" "}
-          <a className="name-link">
-            Jeng Yue
-          </a>
+          Hi, I'm <a className="name-link">Jeng Yue</a>
         </h1>
       </div>
       <div>
@@ -20,16 +17,14 @@ function Profile() {
           advantage is probably my outgoing personality which has provided me
           with the ability to adapt and create a stable environment for me to
           work. Additionally, I am no stranger to software development processes
-          such as{" "}
-          {/* eslint-disable react/jsx-no-target-blank */}
+          such as {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://www.scrum.org/resources/what-is-scrum"
             target="_blank"
           >
             Scrum
           </a>{" "}
-          and{" "}
-          {/* eslint-disable react/jsx-no-target-blank */}
+          and {/* eslint-disable react/jsx-no-target-blank */}
           <a href="https://www.scaledagileframework.com/" target="_blank">
             SAFe
           </a>

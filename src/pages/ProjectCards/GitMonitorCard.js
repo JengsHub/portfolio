@@ -22,7 +22,7 @@ function GitMonitorCard() {
           <p className="text">
             {" "}
             A system that enables users to view detailed analysis of a git
-            repository. 
+            repository.
             <br></br>
             <i className="click-clue"> Click to find out more.</i>
           </p>

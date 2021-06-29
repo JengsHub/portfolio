@@ -1,5 +1,4 @@
 import "./contact.css";
-import { Container } from "@material-ui/core";
 import Mail from "@material-ui/icons/Mail";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import GitHub from "@material-ui/icons/GitHub";
@@ -11,14 +10,14 @@ function Contact() {
   }
 
   function openGitHub() {
-    window.open("", "_blank");
+    window.open("https://github.com/JengsHub", "_blank");
   }
 
   function openMail() {
-    window.open("", "_blank");
+    window.open("mailto:jengyue96@gmail.com", "_blank");
   }
   return (
-    <Container className="contact-row">
+    <div className="contact-row">
       <IconButton onClick={openMail}>
         <Mail style={{ color: "black" }}></Mail>
       </IconButton>
@@ -28,7 +27,7 @@ function Contact() {
       <IconButton onClick={openGitHub}>
         <GitHub style={{ color: "black" }}></GitHub>
       </IconButton>
-    </Container>
+    </div>
   );
 }
 

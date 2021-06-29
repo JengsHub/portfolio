@@ -5,24 +5,21 @@ import Result from "../../images/Screenshot (533).png";
 import { useEffect } from "react";
 
 function FlatlandPage() {
-  useEffect(()=>{
-    window.scrollTo(0, 0)
-  })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <Box>
       <Container maxWidth="md">
         <h1 className="intro">🚂 Flatland Challenge 🛤️</h1>
-        <h4 className="info-container"> 
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
-          <a
-            href="https://github.com/JengsHub/TutorAllocationSystem"
-            target="_blank"
-          >
-            https://github.com/JengsHub/TutorAllocationSystem
+          <a href="https://github.com/JengsHub/Flatland" target="_blank">
+            https://github.com/JengsHub/Flatland
           </a>
-        </h4>
+        </div>
         <img
           className="flatland-gif"
           src={FlatlandGif}
@@ -47,13 +44,13 @@ function FlatlandPage() {
           Swiss Federal Railways and Deutsche Bahn.
         </p>
         <p className="indent profile-text">
-          To tackle this problem, I implemented a baseline solution using {" "}
+          To tackle this problem, I implemented a baseline solution using{" "}
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb"
             target="_blank"
           >
-             A* search algorithm
+            A* search algorithm
           </a>{" "}
           over the full state space of the environment. The idea is simple,
           carry out A* search algorithm for every train in search space. A*
@@ -67,7 +64,6 @@ function FlatlandPage() {
           className="youtube"
           src="https://www.youtube.com/embed/19h1g22hby8"
           sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
-          
         ></iframe>
         <i className="caption">
           Visualisation of Path Finding using A* Search Algorithm
@@ -80,13 +76,10 @@ function FlatlandPage() {
           track, a train must ensure that the path it is taking is not of used
           by any other train to prevent any deadlock situations.
         </p>
-        <img
-            className="result"
-            src={Result}
-            alt="Tabulated results"
-          />
+        <img className="result" src={Result} alt="Tabulated results" />
         <i className="caption">
-          Tabulated result after testing on different Grid sizes. (a, b) where a = Grid of a*a and b = number of trains
+          Tabulated result after testing on different Grid sizes. (a, b) where a
+          = Grid of a*a and b = number of trains
         </i>
         <div className="bottom"></div>
       </Container>

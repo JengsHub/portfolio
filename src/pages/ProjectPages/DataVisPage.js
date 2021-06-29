@@ -6,16 +6,16 @@ import Life from "../../images/Picture2.png";
 import { useEffect } from "react";
 
 function DataVisPage() {
-  useEffect(()=>{
-    window.scrollTo(0, 0)
-  })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Box>
         <Container maxWidth="md">
           <h1 className="intro">📊 Data Visualisation 📈</h1>
 
-          <h4 className="info-container">
+          <div className="info-container">
             <p className="info">Last updated : March, 2021</p>
             {/* eslint-disable react/jsx-no-target-blank */}
             Available at{" "}
@@ -25,7 +25,7 @@ function DataVisPage() {
             >
               https://github.com/JengsHub/LifeExpectancyVisualisation
             </a>
-          </h4>
+          </div>
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://towardsdatascience.com/how-data-visualization-works-12c6a4543d52"
@@ -66,7 +66,11 @@ function DataVisPage() {
             </div>
             <div className="column">
               <p className="indent center profile-text">
-                With data obtained from{" "}
+                By utilizing{" "}
+                <a href="https://www.tableau.com/" target="_blank">
+                  Tableau
+                </a>{" "}
+                software along with data obtained from{" "}
                 <a
                   href="https://data.worldbank.org/indicator/ST.INT.ARVL"
                   target="_blank"
@@ -80,7 +84,8 @@ function DataVisPage() {
                 </a>
                 , I seek to visualise{" "}
                 <b className="bold">Japan as a tourism destination</b>. My
-                visualisation can be read by clicking on the image on the left.
+                visualisation can be viewed by clicking on the image on the
+                left.
               </p>
             </div>
           </div>
@@ -97,7 +102,7 @@ function DataVisPage() {
                   href="https://population.un.org/wpp2019/Download/Standard/Interpolated/"
                   target="_blank"
                 >
-                  United Nations Population Prospect 2019 {" "}
+                  United Nations Population Prospect 2019{" "}
                 </a>
                 , I had visualised the{" "}
                 <b className="bold">Life Expectancy of Humans</b>. My

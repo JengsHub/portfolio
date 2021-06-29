@@ -1,7 +1,5 @@
 import { Route, Switch, useParams } from "react-router-dom";
 
-const Routes = () => {
-
-}
+const Routes = () => {};
 
 export default Routes;

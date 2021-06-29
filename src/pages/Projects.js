@@ -13,22 +13,22 @@ import DataAnalyticsCard from "./ProjectCards/DataAnalyticsCard";
 import Contact from "./Contact/Contact";
 
 function Projects() {
-  useEffect(()=>{
+  useEffect(() => {
     window.scrollTo(0, 0);
-  })
+  });
   return (
     <Box>
-        <h1 className="intro-projects">My Projects</h1>
-        <TASCard></TASCard>
-        <BigDataCard></BigDataCard>
-        <FlatlandCard></FlatlandCard>
-        <HealthcareCard></HealthcareCard>
-        <UsabilityCard></UsabilityCard>
-        <FingerprintCard></FingerprintCard>
-        <GitMonitorCard></GitMonitorCard>
-        <DataVisCard></DataVisCard>
-        <DataAnalyticsCard></DataAnalyticsCard>
-        <Contact></Contact>
+      <h1 className="intro-projects">My Projects</h1>
+      <TASCard></TASCard>
+      <BigDataCard></BigDataCard>
+      <FlatlandCard></FlatlandCard>
+      <HealthcareCard></HealthcareCard>
+      <UsabilityCard></UsabilityCard>
+      <FingerprintCard></FingerprintCard>
+      <GitMonitorCard></GitMonitorCard>
+      <DataVisCard></DataVisCard>
+      <DataAnalyticsCard></DataAnalyticsCard>
+      <Contact></Contact>
     </Box>
   );
 }

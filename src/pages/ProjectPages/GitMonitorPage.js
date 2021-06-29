@@ -7,24 +7,21 @@ import Details from "../../images/Screenshot (17).png";
 import { useEffect } from "react";
 
 function GitMonitorPage() {
-  useEffect(()=>{
-    window.scrollTo(0, 0)
-  })
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <Box>
       <Container maxWidth="md">
         <h1 className="intro">🔎 GitHub Monitoring System 🔍</h1>
-        <h4 className="info-container">
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
-          <a
-            href="https://github.com/JengsHub/TutorAllocationSystem"
-            target="_blank"
-          >
-            CHANGE HERE
+          <a href="https://github.com/JengsHub/GitMonitoring" target="_blank">
+            https://github.com/JengsHub/GitMonitoring
           </a>
-        </h4>
+        </div>
         <img className="git-logo" src={Github} alt="github logo"></img>
         <p className=" indent profile-text">
           Marking team projects in a university project is always a hassle for

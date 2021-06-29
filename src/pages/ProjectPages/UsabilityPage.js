@@ -10,7 +10,7 @@ function UsabilityPage() {
   let modal, modalImg;
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     // eslint-disable-next-line
     modal = document.getElementById("myModal");
     // eslint-disable-next-line
@@ -30,9 +30,9 @@ function UsabilityPage() {
     <Box>
       <Container maxWidth="md">
         <h1 className="intro">📱 LocalCooks Usability Project 🖥️</h1>
-        <h4 className="info-container">
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
-        </h4>
+        </div>
 
         <p className="indent profile-text">
           Everyone needs a hobby, especially during Covid-19 lockdowns. To
@@ -131,8 +131,8 @@ function UsabilityPage() {
           With an interactive prototype, we set out again to interview users
           with the prototype. In this evaluation, we extract crucial information
           such as how long user take to carry out tasks and how many mistakes
-          were made on the prototype. <b>Receiving feedback</b> from users is a very
-          crucial part of the process in UX designing. With the feedback
+          were made on the prototype. <b>Receiving feedback</b> from users is a
+          very crucial part of the process in UX designing. With the feedback
           received, we finished up the project after making minor modifications
           to our prototype
         </p>

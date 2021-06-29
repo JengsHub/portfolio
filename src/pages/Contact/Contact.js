@@ -7,8 +7,10 @@ function Contact() {
   return (
     <Container maxWidth="md" className="contact-dt">
       <hr></hr>
-      <ContactRow/>
-      <p className="in-touch">Get in touch with me ✌️! Always down for a collaboration. </p>
+      <ContactRow />
+      <p className="in-touch">
+        Get in touch with me ✌️! Always down for a collaboration.{" "}
+      </p>
     </Container>
   );
 }

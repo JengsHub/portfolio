@@ -21,7 +21,7 @@ function FingerprintCard() {
             {" "}
             With the reference of research papers published online, I developed
             a fingerprint recognition system using distinct fingerprint
-            minutiae. 
+            minutiae.
             <br></br>
             <i className="click-clue"> Click to find out more.</i>
           </p>

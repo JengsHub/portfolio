@@ -6,9 +6,9 @@ import { useHistory } from "react-router-dom";
 function TASCard() {
   const history = useHistory();
   return (
-    <div onClick={() =>
-      history.push("/portfolio/projects/TutorAllocationSystem")
-    }>
+    <div
+      onClick={() => history.push("/portfolio/projects/TutorAllocationSystem")}
+    >
       <Card className="card">
         <CardMedia
           alt="Tutor Allocation System Logo"
@@ -23,7 +23,7 @@ function TASCard() {
             {" "}
             In collaboration with Monash University Australia, we developed a
             system for Monash University to help automate and ease the process
-            of scheduling of staff. 
+            of scheduling of staff.
             <br></br>
             <i className="click-clue"> Click to find out more.</i>
           </p>

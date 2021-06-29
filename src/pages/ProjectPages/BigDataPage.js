@@ -17,14 +17,17 @@ function BigDataPage() {
         <Container>
           <h1 className="intro">📊 Big Data Processing 📈</h1>
 
-          <h4 className="info-container">
+          <div className="info-container">
             <p className="info">Last updated : May, 2021</p>
             {/* eslint-disable react/jsx-no-target-blank */}
             Available at{" "}
-            <a href="https://github.com/JengsHub/" target="_blank">
-              FILL
+            <a
+              href="https://github.com/JengsHub/BigDataProcessing"
+              target="_blank"
+            >
+              https://github.com/JengsHub/BigDataProcessing
             </a>
-          </h4>
+          </div>
           <img className="apache" src={apache} alt="Apache Spark logo"></img>
           <p className="indent profile-text">
             To familiarize with Apache Spark, I started by investigating and
@@ -58,7 +61,8 @@ function BigDataPage() {
           <p className="indent profile-text">
             As I've gained more experience with Apache Spark, I attempted
             perform predictions using the machine learning model created along
-            with a stream of "real-time" data using Spark Streaming and Apache Kafka. 
+            with a stream of "real-time" data using Spark Streaming and Apache
+            Kafka.
           </p>
 
           <img
@@ -66,7 +70,9 @@ function BigDataPage() {
             src={stream}
             alt="Overall Architecture for streamed data."
           ></img>
-          <i className="caption">Overall Architecture for prediction of stream.</i>
+          <i className="caption">
+            Overall Architecture for prediction of stream.
+          </i>
           <div className="bottom"></div>
         </Container>
       </Box>

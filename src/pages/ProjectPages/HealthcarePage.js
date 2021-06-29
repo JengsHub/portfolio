@@ -35,17 +35,17 @@ function HealthcarePage() {
     <Box>
       <Container maxWidth="md">
         <h1 className="intro">👨‍⚕️ Healthcare Monitoring System 👩‍⚕️</h1>
-        <h4 className="info-container">
+        <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
           {/* eslint-disable react/jsx-no-target-blank */}
           Available at{" "}
           <a
-            href="https://github.com/JengsHub/TutorAllocationSystem"
+            href="https://github.com/JengsHub/HealthcareMobileApplication"
             target="_blank"
           >
-            CHANGE HERE
+            https://github.com/JengsHub/HealthcareMobileApplication
           </a>
-        </h4>
+        </div>
         <img className="git-logo" src={FHIR} alt="FHIR logo"></img>
         <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}
