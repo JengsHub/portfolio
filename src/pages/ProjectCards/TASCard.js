@@ -21,9 +21,9 @@ function TASCard() {
           <h2 className="card-heading">Tutor Allocation System</h2>
           <p className="text">
             {" "}
-            In collaboration with Monash University Australia, we developed a
-            system for Monash University to help automate and ease the process
-            of scheduling of staff.
+            In collaboration with Monash University Australia, my team and I
+            developed a system for Monash University to help automate and ease
+            the process of scheduling of staff.
             <br></br>
             <i className="click-clue"> Click to find out more.</i>
           </p>

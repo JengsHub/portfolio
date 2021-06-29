@@ -121,6 +121,7 @@ function TASProjectPage() {
             https://github.com/JengsHub/TutorAllocationSystem
           </a>
         </div>
+        <hr className="background"></hr>
         <img className="TAS-logo" src={TASlogo} alt="TAS logo"></img>
         <p className="indent profile-text">
           This was a collaborative effort from two teams, one based in Malaysia

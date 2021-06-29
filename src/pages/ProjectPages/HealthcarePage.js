@@ -46,6 +46,7 @@ function HealthcarePage() {
             https://github.com/JengsHub/HealthcareMobileApplication
           </a>
         </div>
+        <hr className="background"></hr>
         <img className="git-logo" src={FHIR} alt="FHIR logo"></img>
         <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}

@@ -20,6 +20,7 @@ function FlatlandPage() {
             https://github.com/JengsHub/Flatland
           </a>
         </div>
+        <hr className="background"></hr>
         <img
           className="flatland-gif"
           src={FlatlandGif}

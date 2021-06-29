@@ -33,6 +33,7 @@ function UsabilityPage() {
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
         </div>
+        <hr className="background"></hr>
 
         <p className="indent profile-text">
           Everyone needs a hobby, especially during Covid-19 lockdowns. To

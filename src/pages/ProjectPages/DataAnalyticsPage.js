@@ -23,6 +23,7 @@ function DataAnalyticsPage() {
               https://github.com/JengsHub/DataAnalytics
             </a>
           </div>
+          <hr className="background"></hr>
           <img className="r" src={r} alt="r Programming Language Logo"></img>
           <p className="indent profile-text">
             By using R programming language and RStudio environment, the goal

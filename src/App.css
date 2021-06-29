@@ -244,6 +244,7 @@
   /* border-radius: 1.302vw; */
   border-radius: 50%;
   position: relative;
+  margin-bottom: 2vw;
 }
 
 /* .sparkle {
@@ -655,4 +656,9 @@
   margin-right: auto;
   display: block;
   margin-top: 3%;
+}
+
+.background {
+  opacity: 60%;
+  margin-bottom: 3vw;
 }

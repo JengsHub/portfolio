@@ -22,6 +22,7 @@ function GitMonitorPage() {
             https://github.com/JengsHub/GitMonitoring
           </a>
         </div>
+        <hr className="background"></hr>
         <img className="git-logo" src={Github} alt="github logo"></img>
         <p className=" indent profile-text">
           Marking team projects in a university project is always a hassle for

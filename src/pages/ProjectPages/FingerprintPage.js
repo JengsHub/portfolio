@@ -25,6 +25,7 @@ function FingerprintPage() {
             https://github.com/JengsHub/FingerprintRecognition
           </a>
         </div>
+        <hr className="background"></hr>
         <img
           className="Fingerprint-History"
           src={Finger}

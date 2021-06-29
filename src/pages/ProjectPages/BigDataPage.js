@@ -28,6 +28,7 @@ function BigDataPage() {
               https://github.com/JengsHub/BigDataProcessing
             </a>
           </div>
+          <hr className="background"></hr>
           <img className="apache" src={apache} alt="Apache Spark logo"></img>
           <p className="indent profile-text">
             To familiarize with Apache Spark, I started by investigating and

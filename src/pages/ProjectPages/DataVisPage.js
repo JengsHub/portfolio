@@ -26,6 +26,7 @@ function DataVisPage() {
               https://github.com/JengsHub/LifeExpectancyVisualisation
             </a>
           </div>
+          <hr className="background"></hr>
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://towardsdatascience.com/how-data-visualization-works-12c6a4543d52"
