@@ -19,13 +19,13 @@ function Contact() {
   return (
     <div className="contact-row">
       <IconButton onClick={openMail}>
-        <Mail style={{ color: "black" }}></Mail>
+        <Mail style={{ color: "black", fontSize: "3vw" }}></Mail>
       </IconButton>
       <IconButton onClick={openLinked}>
-        <LinkedIn style={{ color: "black" }}></LinkedIn>
+        <LinkedIn style={{ color: "black", fontSize: "3vw"  }}></LinkedIn>
       </IconButton>
       <IconButton onClick={openGitHub}>
-        <GitHub style={{ color: "black" }}></GitHub>
+        <GitHub style={{ color: "black", fontSize: "3vw"  }}></GitHub>
       </IconButton>
     </div>
   );

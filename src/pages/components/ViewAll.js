@@ -12,7 +12,7 @@ function ViewAll() {
           className="view-all-projects find-out-more"
           onClick={() => history.push("/portfolio/projects")}
         >
-          View All Projects <ViewCarouselIcon className="view-all-icon" />
+          View All Projects <ViewCarouselIcon className="view-all-icon" style = {{ fontSize: "3vw" }} />
         </button>
       </div>
     </Container>

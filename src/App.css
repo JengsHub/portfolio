@@ -203,7 +203,6 @@
 }
 
 .view-all-icon {
-  font-size: 1.2vw;
   vertical-align: middle;
   padding-left: 0.4557vw;
   padding-top: -0.13vw;
@@ -236,8 +235,8 @@
 }
 
 .mas-flag {
-  width: 19.531vw;
-  height: 19.531vw;
+  width: 15.531vw;
+  height: 15.531vw;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -246,7 +245,6 @@
   position: relative;
   margin-bottom: 2vw;
 }
-
 /* .sparkle {
   position: relative;
   top: -300px;

@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "../App.css";
 import { Container } from "@material-ui/core";
+import image from "../images/Malaysia.jpg";
 
 function Profile() {
   return (
     <Container maxWidth="md">
+      <img className="mas-flag" src={image} alt="Malaysian Flag"></img>
       <div>
         <h1 className="intro">
           Hi, I'm <a className="name-link">Jeng Yue</a>
