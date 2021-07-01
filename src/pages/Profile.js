@@ -18,8 +18,8 @@ function Profile() {
           in Software Engineering in Monash University Malaysia. My biggest
           advantage is probably my outgoing personality which has provided me
           with the ability to adapt and create a stable environment for me to
-          work. Additionally, I am no stranger to software development processes
-          such as {/* eslint-disable react/jsx-no-target-blank */}
+          perform. Additionally, I am no stranger to software development
+          processes such as {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://www.scrum.org/resources/what-is-scrum"
             target="_blank"
