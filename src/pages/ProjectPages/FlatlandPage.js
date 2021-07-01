@@ -3,6 +3,7 @@ import { Box, Container } from "@material-ui/core";
 import FlatlandGif from "../../images/flatland.gif";
 import Result from "../../images/Screenshot (533).png";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function FlatlandPage() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function FlatlandPage() {
   return (
     <Box>
       <Container maxWidth="md">
+        <Header/>
         <h1 className="intro">🚂 Flatland Challenge 🛤️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -20,7 +22,6 @@ function FlatlandPage() {
             https://github.com/JengsHub/Flatland
           </a>
         </div>
-        <hr className="background"></hr>
         <img
           className="flatland-gif"
           src={FlatlandGif}

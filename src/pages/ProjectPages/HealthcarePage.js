@@ -9,6 +9,7 @@ import Cholesterol from "../../images/cholesterol.jpg";
 import BP from "../../images/BloodPressure.jpg";
 import main from "../../images/mainApp.jpg";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function HealthcarePage() {
   let modal, modalImg;
@@ -34,6 +35,7 @@ function HealthcarePage() {
   return (
     <Box>
       <Container maxWidth="md">
+        <Header/>
         <h1 className="intro">👨‍⚕️ Healthcare Monitoring System 👩‍⚕️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -46,7 +48,6 @@ function HealthcarePage() {
             https://github.com/JengsHub/HealthcareMobileApplication
           </a>
         </div>
-        <hr className="background"></hr>
         <img className="git-logo" src={FHIR} alt="FHIR logo"></img>
         <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}

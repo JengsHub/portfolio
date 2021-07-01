@@ -5,6 +5,7 @@ import Result1 from "../../images/Screenshot (531).png";
 import Result2 from "../../images/Screenshot (532).png";
 import Methodology from "../../images/Screenshot (530).png";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function FingerprintPage() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function FingerprintPage() {
   return (
     <Box>
       <Container maxWidth="md">
+        <Header/>
         <h1 className="intro">🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -25,7 +27,6 @@ function FingerprintPage() {
             https://github.com/JengsHub/FingerprintRecognition
           </a>
         </div>
-        <hr className="background"></hr>
         <img
           className="Fingerprint-History"
           src={Finger}

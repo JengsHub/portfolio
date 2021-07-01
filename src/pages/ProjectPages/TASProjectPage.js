@@ -8,6 +8,7 @@ import SS1 from "../../images/Screenshot (527).png";
 import SS2 from "../../images/Screenshot (528).png";
 import SS3 from "../../images/Screenshot (529).png";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function TASProjectPage() {
   let modal,
@@ -108,20 +109,19 @@ function TASProjectPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
-
-        <div className="info-container">
-          <p className="info">Last updated : March, 2021</p>
-          {/* eslint-disable react/jsx-no-target-blank */}
-          Available at{" "}
-          <a
-            href="https://github.com/JengsHub/TutorAllocationSystem"
-            target="_blank"
-          >
-            https://github.com/JengsHub/TutorAllocationSystem
-          </a>
-        </div>
-        <hr className="background"></hr>
+        <Header/>
+          <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
+          <div className="info-container">
+            <p className="info">Last updated : March, 2021</p>
+            {/* eslint-disable react/jsx-no-target-blank */}
+            Available at{" "}
+            <a
+              href="https://github.com/JengsHub/TutorAllocationSystem"
+              target="_blank"
+            >
+              https://github.com/JengsHub/TutorAllocationSystem
+            </a>
+          </div>
         <img className="TAS-logo" src={TASlogo} alt="TAS logo"></img>
         <p className="indent profile-text">
           This was a collaborative effort from two teams, one based in Malaysia

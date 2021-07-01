@@ -28,9 +28,9 @@
 
 .nav-bar-left a {
   float: left;
-  padding: 0.3255vw;
+  padding: 0.651041vw;
   margin-left: 1.5vw;
-  margin-top: 1.302vw;
+  margin-top: 1.3vw;
   font-weight: 500;
 }
 
@@ -420,6 +420,7 @@
 .info-container {
   margin-bottom: 3.255vw;
   font-size: 1.17vw;
+  font-weight: 550;
 }
 
 .Fingerprint-History {

@@ -6,6 +6,7 @@ import apache from "../../images/apache_spark.png";
 // import df from "../../images/dataframe.png";
 import pipeline from "../../images/pipeline.png";
 import stream from "../../images/apache_stream.png";
+import Header from "../components/Header";
 
 function BigDataPage() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function BigDataPage() {
     <>
       <Box>
         <Container>
+          <Header/>
           <h1 className="intro">📊 Big Data Processing 📈</h1>
 
           <div className="info-container">
@@ -28,7 +30,6 @@ function BigDataPage() {
               https://github.com/JengsHub/BigDataProcessing
             </a>
           </div>
-          <hr className="background"></hr>
           <img className="apache" src={apache} alt="Apache Spark logo"></img>
           <p className="indent profile-text">
             To familiarize with Apache Spark, I started by investigating and

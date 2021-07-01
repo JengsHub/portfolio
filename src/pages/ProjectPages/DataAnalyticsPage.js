@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import r from "../../images/r_prog_lang.png";
 import kdd from "../../images/kdd.png";
 import roc from "../../images/ROC.png";
+import Header from "../components/Header";
 
 function DataAnalyticsPage() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function DataAnalyticsPage() {
     <>
       <Box>
         <Container>
+          <Header/>
           <h1 className="intro">📊 Data Analytics 📈</h1>
 
           <div className="info-container">
@@ -23,7 +25,6 @@ function DataAnalyticsPage() {
               https://github.com/JengsHub/DataAnalytics
             </a>
           </div>
-          <hr className="background"></hr>
           <img className="r" src={r} alt="r Programming Language Logo"></img>
           <p className="indent profile-text">
             By using R programming language and RStudio environment, the goal

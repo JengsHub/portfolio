@@ -4,6 +4,7 @@ import DataVis from "../../images/datavis.jpeg";
 import Japan from "../../images/Picture1.jpg";
 import Life from "../../images/Picture2.png";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function DataVisPage() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function DataVisPage() {
     <>
       <Box>
         <Container maxWidth="md">
+          <Header/>
           <h1 className="intro">📊 Data Visualisation 📈</h1>
 
           <div className="info-container">
@@ -26,7 +28,6 @@ function DataVisPage() {
               https://github.com/JengsHub/LifeExpectancyVisualisation
             </a>
           </div>
-          <hr className="background"></hr>
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://towardsdatascience.com/how-data-visualization-works-12c6a4543d52"

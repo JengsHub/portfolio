@@ -21,7 +21,7 @@ function TopAppBar() {
         <div className="nav-bar">
           <div className="nav-bar-left">
             <NavLink className="nav-bar-fade" to="/portfolio/about">
-              ABOUT
+              ABOUT ME
             </NavLink>
           </div>
           <div className="nav-bar-right">

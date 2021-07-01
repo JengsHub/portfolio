@@ -5,6 +5,7 @@ import Moqup from "../../images/Screenshot (456).png";
 import Persona from "../../images/Persona.png";
 import Sketch from "../../images/sketch.jpg";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function UsabilityPage() {
   let modal, modalImg;
@@ -29,11 +30,11 @@ function UsabilityPage() {
   return (
     <Box>
       <Container maxWidth="md">
+        <Header/>
         <h1 className="intro">📱 LocalCooks Usability Project 🖥️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
         </div>
-        <hr className="background"></hr>
 
         <p className="indent profile-text">
           Everyone needs a hobby, especially during Covid-19 lockdowns. To

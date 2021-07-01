@@ -5,6 +5,7 @@ import GitMonitor from "../../images/git monitoring.png";
 import Login from "../../images/Login_page.png";
 import Details from "../../images/Screenshot (17).png";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function GitMonitorPage() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function GitMonitorPage() {
   return (
     <Box>
       <Container maxWidth="md">
+        <Header/>
         <h1 className="intro">🔎 GitHub Monitoring System 🔍</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -22,7 +24,6 @@ function GitMonitorPage() {
             https://github.com/JengsHub/GitMonitoring
           </a>
         </div>
-        <hr className="background"></hr>
         <img className="git-logo" src={Github} alt="github logo"></img>
         <p className=" indent profile-text">
           Marking team projects in a university project is always a hassle for
