@@ -34,7 +34,7 @@ function About() {
   ];
   const general = [
     "Web Development",
-    "Mobile Application Development",
+    "Mobile App Development",
     "Product Design",
     "Software Modelling",
     "Database Modelling",
@@ -52,7 +52,7 @@ function About() {
         <p className="profile-text">
           My Passion is currently in full-stack web/app development, but I do
           not shy away from adversity. I enjoy collaborative work as I am at a
-          point in my life where I still have so much to learn from others.
+          point in my life where I still have much to learn from others.
           Outside of coding, music 🎶 and sports ⚽ are my go-tos, they impart a
           sense of comfort onto me. Listed below are more information about me.
           Feel free to get in contact with me and let's chat!!
