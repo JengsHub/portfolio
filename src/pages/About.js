@@ -26,7 +26,7 @@ function About() {
     "Android Studio",
     "Postman",
     "PostgreSQL",
-    "Apache Saprk",
+    "Apache Spark",
     "Lucid Charts",
     "Amazon Web Services",
     "Tableau",

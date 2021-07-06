@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "../../App.css";
 import { Box, Container } from "@material-ui/core";
 import safeLogo from "../../images/Safe.png";
@@ -24,57 +25,42 @@ function TASProjectPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    //TODO: IMPROVE MODAL LOGIC
+    //TODO: Adhere to DRY
 
-    // eslint-disable-next-line
     modal = document.getElementById("myModal");
-    // eslint-disable-next-line
     modalImg = document.getElementById("img01");
-    // eslint-disable-next-line
     var span = document.getElementById("close");
     span.onclick = function () {
       modal.style.display = "none";
     };
 
     //Database Modal
-    // eslint-disable-next-line
     DBmodal = document.getElementById("myDBModal");
-    // eslint-disable-next-line
     DBmodalImg = document.getElementById("DBimg01");
-    // eslint-disable-next-line
     var DBspan = document.getElementById("DBclose");
     DBspan.onclick = function () {
       DBmodal.style.display = "none";
     };
 
     //Screenshot modals
-    // eslint-disable-next-line
     SSmodal1 = document.getElementById("mySSModal1");
-    // eslint-disable-next-line
     SSmodalImg1 = document.getElementById("SSimg01");
-    // eslint-disable-next-line
     var SSspan = document.getElementById("SS1close");
     SSspan.onclick = function () {
       SSmodal1.style.display = "none";
     };
 
     //Screenshot2 modals
-    // eslint-disable-next-line
     SSmodal2 = document.getElementById("mySSModal2");
-    // eslint-disable-next-line
     SSmodalImg2 = document.getElementById("SSimg02");
-    // eslint-disable-next-line
     var SSspan2 = document.getElementById("SS2close");
     SSspan2.onclick = function () {
       SSmodal2.style.display = "none";
     };
 
     //Screenshot3 modals
-    // eslint-disable-next-line
     SSmodal3 = document.getElementById("mySSModal3");
-    // eslint-disable-next-line
     SSmodalImg3 = document.getElementById("SSimg03");
-    // eslint-disable-next-line
     var SSspan3 = document.getElementById("SS3close");
     SSspan3.onclick = function () {
       SSmodal3.style.display = "none";
@@ -92,49 +78,50 @@ function TASProjectPage() {
   };
 
   const openSS1Modal = () => {
-    DBmodal.style.display = "block";
-    DBmodalImg.src = SS1;
+    SSmodal1.style.display = "block";
+    SSmodalImg1.src = SS1;
   };
 
   const openSS2Modal = () => {
-    DBmodal.style.display = "block";
-    DBmodalImg.src = SS2;
+    SSmodal2.style.display = "block";
+    SSmodalImg2.src = SS2;
   };
 
   const openSS3Modal = () => {
-    DBmodal.style.display = "block";
-    DBmodalImg.src = SS3;
+    SSmodal3.style.display = "block";
+    SSmodalImg3.src = SS3;
   };
 
   return (
     <Box>
       <Container maxWidth="md">
-        <Header/>
-          <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
-          <div className="info-container">
-            <p className="info">Last updated : March, 2021</p>
-            {/* eslint-disable react/jsx-no-target-blank */}
-            Available at{" "}
-            <a
-              href="https://github.com/JengsHub/TutorAllocationSystem"
-              target="_blank"
-            >
-              https://github.com/JengsHub/TutorAllocationSystem
-            </a>
-          </div>
+        <Header />
+        <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
+        <div className="info-container">
+          <p className="info">Last updated : March, 2021</p>
+          {/* eslint-disable react/jsx-no-target-blank */}
+          Available at{" "}
+          <a
+            href="https://github.com/JengsHub/TutorAllocationSystem"
+            target="_blank"
+          >
+            https://github.com/JengsHub/TutorAllocationSystem
+          </a>
+        </div>
         <img className="TAS-logo" src={TASlogo} alt="TAS logo"></img>
         <p className="indent profile-text">
-          This was a collaborative effort from two teams, one based in Malaysia
-          and the other in Australia. The goal here was to create a system to
-          assist with assigning tutors to classes for Monash University
-          Australia. Prior to this project, the process of allocating tutors
-          were "troublsome" per se.
+          This project was a collaborative effort from two teams, one based in
+          Malaysia and the other in Australia. The goal here was to create a
+          system to assist with assigning tutors to classes for Monash
+          University Australia. The project idea was pitched to us due to the
+          fact that the existing process of allocating tutors were "troublesome"
+          per se.
           <br></br>
           <br></br>
         </p>
         <img className="safe-logo" src={safeLogo} alt="SAFe logo"></img>
         <p className="indent profile-text">
-          My role in this project was a Product Manager as part of the{" "}
+          My role in this project was that of a Product Manager as part of the{" "}
           {/* eslint-disable react/jsx-no-target-blank */}
           <a
             href="https://www.scaledagileframework.com/product-and-solution-management/"
@@ -155,7 +142,7 @@ function TASProjectPage() {
         </p>
         <p className="indent profile-text">
           This project was started from scratch. Therefore the first meeting
-          with our stakeholders were important for the Product Management Team
+          with our stakeholders were crucial for the Product Management Team
           to nail the product vision statement by understanding the needs and
           requirements for the application. We had also come up with a
           conceptual class diagram that consists of important domain concepts.

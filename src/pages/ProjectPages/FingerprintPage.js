@@ -81,8 +81,8 @@ function FingerprintPage() {
           individual has six fingerprints taken(scanned) in different manners.
         </p>
         <p className="indent profile-text">
-          Overall, we managed to match the fingerpritn back to its owner with a
-          relative high matching score in some case<i>(pic attached below)</i>.
+          Overall, we managed to match the fingerprint back to its owner with a
+          relative high matching score in some cases<i>(pic attached below)</i>.
         </p>
         <img
           className="Fingerprint-History"

@@ -6,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 function Contact() {
   function openLinked() {
-    window.open("", "_blank");
+    window.open("https://www.linkedin.com/in/jeng-yue-ong-a29a39216/", "_blank");
   }
 
   function openGitHub() {

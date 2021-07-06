@@ -32,8 +32,8 @@ function BigDataPage() {
           </div>
           <img className="apache" src={apache} alt="Apache Spark logo"></img>
           <p className="indent profile-text">
-            To familiarize with Apache Spark, I started by investigating and
-            understanding the various opearation that can be carried out on
+            To familiarize myself with Apache Spark, I started by investigating and
+            understanding the various operation that can be carried out on
             Apache Spark, I employed various methods on both Resilient
             Distributed Datasets (RDD) and Dataframes over a large dataset of
             Pedestrian Count in Melbourne Australia. I have also gauged the
@@ -48,7 +48,7 @@ function BigDataPage() {
           <p className="indent profile-text">
             With the conclusion drawn from the comparisons between performance
             of RDD and dataframes, I then proceeded to build various machine
-            learning models to predict the pedestrian traffic. These models
+            learning models to predict pedestrian traffic. These models
             include, Logistic Regression, Decision tree and Random Forest. To
             transform, evaluate and fit the steps into an object, a Pipeline is
             used.

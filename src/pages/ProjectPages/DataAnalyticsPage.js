@@ -29,9 +29,9 @@ function DataAnalyticsPage() {
           <p className="indent profile-text">
             By using R programming language and RStudio environment, the goal
             was to analyse the activity, language use and social interactions in
-            an-online community. To familiarise myself with R and RStudio, I
+            an online community. To familiarise myself with R and RStudio, I
             started off by conducting analysis over a relatively small dataset.
-            The overall steps includes understanding and pre-processing the
+            The overall steps include understanding and pre-processing the
             dataset, analyzing dataset and reflection on how the investigation
             went.
           </p>
@@ -49,7 +49,7 @@ function DataAnalyticsPage() {
             </a>
             . With the above mentioned Data Science Methodology applied, I then
             proceeded to explore and learn on implementing classification models
-            with R and RStudio. The classification models I have explored on are
+            with R and RStudio. The classification models I have explored are
             Decision Tree, Naive Bayes, Bagging, Boosting and Random Forest.
           </p>
 

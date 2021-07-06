@@ -19,8 +19,8 @@ function DataAnalyticsCard() {
           <h2 className="card-heading">Data Analytics</h2>
           <p className="text">
             {" "}
-            Analysing data sets using a range of statisical, graphical and
-            mmachine-learning techniques with the help of R statisical
+            Analysing data sets using a range of statistical, graphical and
+            machine-learning techniques with the help of R statisTical
             programming language and RStudio environment.
             <br></br>
             <i className="click-clue"> Click to find out more.</i>

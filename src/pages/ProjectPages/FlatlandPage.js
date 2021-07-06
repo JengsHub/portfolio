@@ -12,7 +12,7 @@ function FlatlandPage() {
   return (
     <Box>
       <Container maxWidth="md">
-        <Header/>
+        <Header />
         <h1 className="intro">🚂 Flatland Challenge 🛤️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -55,7 +55,7 @@ function FlatlandPage() {
             A* search algorithm
           </a>{" "}
           over the full state space of the environment. The idea is simple,
-          carry out A* search algorithm for every train in search space. A*
+          carry out A* search algorithm for every train in the search space. A*
           algorithm is a searching algorithm that searches for the shortest path
           between the initial and the final state. It is used in various
           applications, such as maps.

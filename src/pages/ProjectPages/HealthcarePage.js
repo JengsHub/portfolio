@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "../../App.css";
 import { Box, Container } from "@material-ui/core";
 import FHIR from "../../images/FHIR.png";
@@ -16,11 +17,8 @@ function HealthcarePage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // eslint-disable-next-line
     modal = document.getElementById("myModal");
-    // eslint-disable-next-line
     modalImg = document.getElementById("img01");
-    // eslint-disable-next-line
     var span = document.getElementById("close");
     span.onclick = function () {
       modal.style.display = "none";
@@ -51,7 +49,7 @@ function HealthcarePage() {
         <img className="git-logo" src={FHIR} alt="FHIR logo"></img>
         <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}
-          With the use of{" "}
+          By utilizing 
           <a href="https://www.hl7.org/fhir/overview.html" target="_blank">
             Fast Healthcare Interoperability Resources 1 (FHIR)
           </a>
@@ -107,11 +105,11 @@ function HealthcarePage() {
         <p className="indent profile-text">
           Subsequently, development of an interactive and informative interface
           began. This allows health practitioners clearly view and identify
-          health aspects of monitored patient. Health practitioners were also
+          health aspects of monitored patients. Health practitioners were also
           able to specify how frequently they want the records to be updated.
           Because this application is built as a mobile application, persistent
           storage of a mobile phone is utilized to store retrieved medical
-          records to minimize the server load and imporve app performance. With
+          records to minimize the server load and improve app performance. With
           the use of machine learning technique known as{" "}
           {/* eslint-disable react/jsx-no-target-blank */}
           <a

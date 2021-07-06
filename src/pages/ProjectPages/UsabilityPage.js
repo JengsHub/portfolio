@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "../../App.css";
 import { Box, Container } from "@material-ui/core";
 import Question from "../../images/Screenshot (534).png";
@@ -12,9 +13,7 @@ function UsabilityPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    // eslint-disable-next-line
     modal = document.getElementById("myModal");
-    // eslint-disable-next-line
     modalImg = document.getElementById("img01");
     var span = document.getElementById("close");
     span.onclick = function () {
@@ -69,7 +68,7 @@ function UsabilityPage() {
         <i className="caption">Google Form Questionnaire</i>
         <p className="indent profile-text">
           With the information gathered, we then review information gathered by
-          colleagues and conclude similarities and difference. We then
+          colleagues and conclude similarities and differences. We then
           individually came up with user stories and personas from the
           information that we have concluded. These are a few examples of them.
         </p>

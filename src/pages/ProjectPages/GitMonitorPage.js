@@ -64,7 +64,7 @@ developer.github.com/v3/activity/events/types/#pushevent"
             here
           </a>
           . The project was written with javascript and the use of Corvid's API
-          (now known as Velo) on Wix.com. As Wix's free hosting has run out of
+          (now known as Velo) on Wix.com. As Wix.com's free hosting has run out of
           its duration, attached screenshots below shows the basic UI of the
           project.
         </p>
