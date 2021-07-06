@@ -16,7 +16,7 @@ function Profile() {
       <div>
         <p className="profile-text">
           I'm an aspiring software engineer who is currently pursuing a degree
-          in Software Engineering in Monash University Malaysia. My biggest
+          in Software Engineering at Monash University Malaysia. My biggest
           advantage is probably my outgoing personality which has provided me
           with the ability to adapt and establish a stable environment for me to
           perform. Additionally, I am no stranger to software development
