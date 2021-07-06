@@ -2,6 +2,7 @@ import "./App.css";
 import TopAppBar from "./pages/TopAppBar";
 import { BrowserRouter as Router } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import React from "react";
 
 function App() {
   return (

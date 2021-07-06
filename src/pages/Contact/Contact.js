@@ -2,6 +2,7 @@ import "../../App.css";
 import "./contact.css";
 import { Container } from "@material-ui/core";
 import ContactRow from "./ContactRow";
+import React from "react";
 
 function Contact() {
   return (

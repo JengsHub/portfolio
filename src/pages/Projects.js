@@ -7,7 +7,7 @@ import UsabilityCard from "./ProjectCards/UsabilityCard";
 import FingerprintCard from "./ProjectCards/FingerprintCard";
 import GitMonitorCard from "./ProjectCards/GitMonitorCard";
 import DataVisCard from "./ProjectCards/DataVisCard";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import BigDataCard from "./ProjectCards/BigDataCard";
 import DataAnalyticsCard from "./ProjectCards/DataAnalyticsCard";
 import Contact from "./Contact/Contact";

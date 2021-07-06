@@ -2,6 +2,7 @@ import "../../App.css";
 import { Card, CardMedia, CardContent } from "@material-ui/core";
 import logo from "../../images/big_data.png";
 import { useHistory } from "react-router-dom";
+import React from "react";
 
 function BigDataCard() {
   const history = useHistory();

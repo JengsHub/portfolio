@@ -2,6 +2,7 @@ import "../../App.css";
 import { Card, CardMedia, CardContent } from "@material-ui/core";
 import logo from "../../images/data_analytics.png";
 import { useHistory } from "react-router-dom";
+import React from "react";
 
 function DataAnalyticsCard() {
   const history = useHistory();

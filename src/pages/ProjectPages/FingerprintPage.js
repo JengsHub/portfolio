@@ -4,7 +4,7 @@ import Finger from "../../images/history-of-biometrics-2-500x278.png";
 import Result1 from "../../images/Screenshot (531).png";
 import Result2 from "../../images/Screenshot (532).png";
 import Methodology from "../../images/Screenshot (530).png";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function FingerprintPage() {

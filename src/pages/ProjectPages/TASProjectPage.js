@@ -8,7 +8,7 @@ import DbDraft from "../../images/DatabaseDraft.png";
 import SS1 from "../../images/Screenshot (527).png";
 import SS2 from "../../images/Screenshot (528).png";
 import SS3 from "../../images/Screenshot (529).png";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function TASProjectPage() {

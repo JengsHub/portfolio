@@ -5,7 +5,7 @@ import Question from "../../images/Screenshot (534).png";
 import Moqup from "../../images/Screenshot (456).png";
 import Persona from "../../images/Persona.png";
 import Sketch from "../../images/sketch.jpg";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function UsabilityPage() {

@@ -4,7 +4,7 @@ import Github from "../../images/Github.jpg";
 import GitMonitor from "../../images/git monitoring.png";
 import Login from "../../images/Login_page.png";
 import Details from "../../images/Screenshot (17).png";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function GitMonitorPage() {

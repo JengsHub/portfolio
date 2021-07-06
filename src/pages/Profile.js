@@ -2,6 +2,7 @@
 import "../App.css";
 import { Container } from "@material-ui/core";
 import t1 from "../images/t1.png";
+import React from "react";
 
 function Profile() {
   return (

@@ -2,6 +2,7 @@ import "./contact.css";
 import Mail from "@material-ui/icons/Mail";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import GitHub from "@material-ui/icons/GitHub";
+import React from "react";
 import IconButton from "@material-ui/core/IconButton";
 
 function Contact() {

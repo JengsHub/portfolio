@@ -2,7 +2,7 @@ import "../../App.css";
 import { Box, Container } from "@material-ui/core";
 import FlatlandGif from "../../images/flatland.gif";
 import Result from "../../images/Screenshot (533).png";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function FlatlandPage() {

@@ -3,6 +3,7 @@ import "../about.css";
 import { Box, Container } from "@material-ui/core";
 import image from "../images/Malaysia.jpg";
 import Contact from "./Contact/Contact";
+import React from "react";
 // import gif from "../images/sparkle.gif";
 
 function About() {

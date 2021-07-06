@@ -2,6 +2,7 @@ import "../../App.css";
 import { Container } from "@material-ui/core";
 import ViewCarouselIcon from "@material-ui/icons/ViewCarousel";
 import { useHistory } from "react-router-dom";
+import React from "react";
 
 function ViewAll() {
   const history = useHistory();

@@ -9,7 +9,7 @@ import UML from "../../images/HealthUML.png";
 import Cholesterol from "../../images/cholesterol.jpg";
 import BP from "../../images/BloodPressure.jpg";
 import main from "../../images/mainApp.jpg";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 function HealthcarePage() {

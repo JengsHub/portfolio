@@ -4,6 +4,7 @@ import { Route, NavLink, Switch } from "react-router-dom";
 import Home from "../pages/Home";
 import Projects from "./Projects";
 import About from "./About";
+import React from "react";
 import TASProjectPage from "../pages/ProjectPages/TASProjectPage";
 import DataVisPage from "../pages/ProjectPages/DataVisPage";
 import FingerprintPage from "../pages/ProjectPages/FingerprintPage";
