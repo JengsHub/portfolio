@@ -17,7 +17,7 @@ import DataAnalyticsPage from "./ProjectPages/DataAnalyticsPage";
 
 function TopAppBar() {
   return (
-    <Container maxWidth="md" className="nav-bar">
+    <Container className="nav-bar">
       <div>
         <div className="nav-bar">
           <div className="nav-bar-left">

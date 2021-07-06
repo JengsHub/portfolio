@@ -11,7 +11,7 @@ function FlatlandPage() {
   });
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container>
         <Header />
         <h1 className="intro">🚂 Flatland Challenge 🛤️</h1>
         <div className="info-container">

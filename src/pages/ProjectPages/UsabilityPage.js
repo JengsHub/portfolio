@@ -28,7 +28,7 @@ function UsabilityPage() {
 
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container >
         <Header/>
         <h1 className="intro">📱 LocalCooks Usability Project 🖥️</h1>
         <div className="info-container">

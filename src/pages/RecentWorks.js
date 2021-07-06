@@ -9,7 +9,7 @@ import BigDataCard from "./ProjectCards/BigDataCard";
 
 function RecentWorks() {
   return (
-    <Container maxWidth="md">
+    <Container>
       <Helmet>
         <meta
           name="viewport"

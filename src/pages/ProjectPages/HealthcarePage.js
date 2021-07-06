@@ -32,7 +32,7 @@ function HealthcarePage() {
 
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container >
         <Header/>
         <h1 className="intro">👨‍⚕️ Healthcare Monitoring System 👩‍⚕️</h1>
         <div className="info-container">

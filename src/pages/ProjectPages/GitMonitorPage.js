@@ -13,7 +13,7 @@ function GitMonitorPage() {
   });
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container>
         <Header/>
         <h1 className="intro">🔎 GitHub Monitoring System 🔍</h1>
         <div className="info-container">

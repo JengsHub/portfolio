@@ -12,7 +12,7 @@ function DataVisPage() {
   });
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container >
         <Header />
         <h1 className="intro">📊 Data Visualisation 📈</h1>
 

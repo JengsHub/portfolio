@@ -94,7 +94,7 @@ function TASProjectPage() {
 
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container>
         <Header />
         <h1 className="intro">👨‍🏫 Tutor Allocation Project 👩‍🏫</h1>
         <div className="info-container">

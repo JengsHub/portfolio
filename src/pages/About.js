@@ -44,7 +44,7 @@ function About() {
 
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container>
         <img className="mas-flag" src={image} alt="Malaysian Flag"></img>
         <h2 className="intro">
           👋🏼 I'm an undergraduate who is currently based in Selangor, Malaysia.

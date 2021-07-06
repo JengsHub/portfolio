@@ -13,7 +13,7 @@ function FingerprintPage() {
   });
   return (
     <Box>
-      <Container maxWidth="md">
+      <Container>
         <Header/>
         <h1 className="intro">🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
         <div className="info-container">

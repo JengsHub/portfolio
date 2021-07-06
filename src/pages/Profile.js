@@ -6,7 +6,7 @@ import React from "react";
 
 function Profile() {
   return (
-    <Container maxWidth="md">
+    <Container>
       <img className="mas-flag" src={t1} alt="Profile"></img>
       <div>
         <h1 className="intro">
