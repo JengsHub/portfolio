@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/logofull.png";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -11,13 +11,9 @@ function TASCard() {
       onClick={() => history.push("/portfolio/projects/TutorAllocationSystem")}
     >
       <Card className="card">
-        <CardMedia
-          alt="Tutor Allocation System Logo"
-          className="card-images"
-          title="Tutor Allocation System Logo"
-        >
+        <div className="card-images">
           <img src={logo} className="logo" alt="TAS logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">Tutor Allocation System</h2>
           <p className="text">

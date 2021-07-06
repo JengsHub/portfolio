@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import "../../App.css";
+import "../../about.css";
 import { Box, Container } from "@material-ui/core";
 import Question from "../../images/Screenshot (534).png";
 import Moqup from "../../images/Screenshot (456).png";
@@ -28,8 +29,8 @@ function UsabilityPage() {
 
   return (
     <Box>
-      <Container >
-        <Header/>
+      <Container>
+        <Header />
         <h1 className="intro">📱 LocalCooks Usability Project 🖥️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -72,8 +73,8 @@ function UsabilityPage() {
           individually came up with user stories and personas from the
           information that we have concluded. These are a few examples of them.
         </p>
-        <div className="row">
-          <div className="column">
+        <div className="container">
+          <div className="item">
             <img
               className="Persona"
               src={Persona}
@@ -82,7 +83,7 @@ function UsabilityPage() {
             ></img>
             <i className="caption"> Persona</i>
           </div>
-          <div className="column">
+          <div className="item">
             <p className="profile-text">
               "As a user of the application, I want to be able to switch the
               language of the application as I like so that I can understand the
@@ -97,9 +98,9 @@ function UsabilityPage() {
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="column">
-            <p className="sketch-text profile-text">
+        <div className="usability-sketch-container ">
+          <div className="sketch-item">
+            <p className=" profile-text">
               Now that we know our user, we individually produced some sketches
               of the application. These sketches were produced by applying some
               theories in UI design.
@@ -110,17 +111,17 @@ function UsabilityPage() {
               move further into the project, which would save some time
             </p>
           </div>
-          <div className="column">
-            <img className="Persona" src={Sketch} alt="Sketch"></img>
+          <div className="sketch-item">
+            <img className="sketch" src={Sketch} alt="Sketch"></img>
             <i className="caption"> Example sketch</i>
           </div>
         </div>
-        <div className="row">
-          <div className="column">
-            <img className="Moqup" src={Moqup} alt="Example of Mock up"></img>
+        <div className="usability-sketch-container">
+          <div className="sketch-item">
+            <img className="sketch" src={Moqup} alt="Example of Mock up"></img>
           </div>
-          <div className="column">
-            <p className="sketch-text profile-text">
+          <div className="sketch-item">
+            <p className="profile-text">
               With our sketches, my team and I got together and decided on pros
               and cons of each idea. We then decided on a final sketch idea and
               proceeded to produce a high-fidelity prototype with Moqups. This

@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/data_analytics.png";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -9,13 +9,9 @@ function DataAnalyticsCard() {
   return (
     <div onClick={() => history.push("/portfolio/projects/DataAnalytics")}>
       <Card className="card">
-        <CardMedia
-          alt="Data Analytics Logo"
-          className="card-images yellow"
-          title="Data Analytics Logo"
-        >
+        <div className="card-images yellow">
           <img src={logo} className="logo" alt="Data Analytics logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">Data Analytics</h2>
           <p className="text">

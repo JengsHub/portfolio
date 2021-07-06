@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/fingerprint.png";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -9,13 +9,9 @@ function FingerprintCard() {
   return (
     <div onClick={() => history.push("/portfolio/projects/Fingerprint")}>
       <Card className="card">
-        <CardMedia
-          alt="Fingerprint Logo"
-          className="card-images peach"
-          title="Fingerprint Logo"
-        >
+        <div className="card-images peach">
           <img src={logo} className="logo" alt="Fingerprint logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">Fingerprint Recognition</h2>
           <p className="text">

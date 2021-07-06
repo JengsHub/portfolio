@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/flatland-logo.svg";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -9,13 +9,9 @@ function FlatlandCard() {
   return (
     <div onClick={() => history.push("/portfolio/projects/FlatlandChallenge")}>
       <Card className="card">
-        <CardMedia
-          alt="Flatland Logo"
-          className="card-images yellow"
-          title="Flatland Logo"
-        >
+        <div className="card-images yellow">
           <img src={logo} className="logo" alt="Flatland logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">Flatland Challenge</h2>
           <p className="text">

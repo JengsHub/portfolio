@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/mobile-10-512.webp";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -9,13 +9,9 @@ function TASCard() {
   return (
     <div onClick={() => history.push("/portfolio/projects/Usability")}>
       <Card className="card">
-        <CardMedia
-          alt="Usability Logo"
-          className="card-images orange"
-          title="Usability Logo"
-        >
+        <div className="card-images orange">
           <img src={logo} className="logo" alt="Usability logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">LocalCooks Application Design</h2>
           <p className="text">

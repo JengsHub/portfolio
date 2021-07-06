@@ -32,8 +32,8 @@ function HealthcarePage() {
 
   return (
     <Box>
-      <Container >
-        <Header/>
+      <Container>
+        <Header />
         <h1 className="intro">👨‍⚕️ Healthcare Monitoring System 👩‍⚕️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -49,7 +49,7 @@ function HealthcarePage() {
         <img className="git-logo" src={FHIR} alt="FHIR logo"></img>
         <p className="indent profile-text">
           {/* eslint-disable react/jsx-no-target-blank */}
-          By utilizing 
+          By utilizing
           <a href="https://www.hl7.org/fhir/overview.html" target="_blank">
             Fast Healthcare Interoperability Resources 1 (FHIR)
           </a>

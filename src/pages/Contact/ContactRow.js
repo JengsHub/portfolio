@@ -7,7 +7,10 @@ import IconButton from "@material-ui/core/IconButton";
 
 function Contact() {
   function openLinked() {
-    window.open("https://www.linkedin.com/in/jeng-yue-ong-a29a39216/", "_blank");
+    window.open(
+      "https://www.linkedin.com/in/jeng-yue-ong-a29a39216/",
+      "_blank"
+    );
   }
 
   function openGitHub() {
@@ -20,13 +23,17 @@ function Contact() {
   return (
     <div className="contact-row">
       <IconButton onClick={openMail}>
-        <Mail style={{ color: "black", fontSize: "3vw" }}></Mail>
+        <Mail style={{ color: "black", fontSize: "calc(20px + 0.7vw)" }}></Mail>
       </IconButton>
       <IconButton onClick={openLinked}>
-        <LinkedIn style={{ color: "black", fontSize: "3vw"  }}></LinkedIn>
+        <LinkedIn
+          style={{ color: "black", fontSize: "calc(20px + 0.7vw)" }}
+        ></LinkedIn>
       </IconButton>
       <IconButton onClick={openGitHub}>
-        <GitHub style={{ color: "black", fontSize: "3vw"  }}></GitHub>
+        <GitHub
+          style={{ color: "black", fontSize: "calc(20px + 0.7vw)" }}
+        ></GitHub>
       </IconButton>
     </div>
   );

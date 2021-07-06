@@ -1,5 +1,5 @@
 import "../../App.css";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import { Card, CardContent } from "@material-ui/core";
 import logo from "../../images/big_data.png";
 import { useHistory } from "react-router-dom";
 import React from "react";
@@ -9,13 +9,9 @@ function BigDataCard() {
   return (
     <div onClick={() => history.push("/portfolio/projects/BigDataProcessing")}>
       <Card className="card">
-        <CardMedia
-          alt="Big Data Logo"
-          className="card-images blue"
-          title="Big Data Logo"
-        >
+        <div className="card-images blue">
           <img src={logo} className="logo" alt="Big Data logo"></img>
-        </CardMedia>
+        </div>
         <CardContent className="card-content">
           <h2 className="card-heading">Big Data Processing</h2>
           <p className="text">

@@ -14,7 +14,7 @@ function GitMonitorPage() {
   return (
     <Box>
       <Container>
-        <Header/>
+        <Header />
         <h1 className="intro">🔎 GitHub Monitoring System 🔍</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>
@@ -64,8 +64,8 @@ developer.github.com/v3/activity/events/types/#pushevent"
             here
           </a>
           . The project was written with javascript and the use of Corvid's API
-          (now known as Velo) on Wix.com. As Wix.com's free hosting has run out of
-          its duration, attached screenshots below shows the basic UI of the
+          (now known as Velo) on Wix.com. As Wix.com's free hosting has run out
+          of its duration, attached screenshots below shows the basic UI of the
           project.
         </p>
         <img className="ui" src={Login} alt="Login Page"></img>

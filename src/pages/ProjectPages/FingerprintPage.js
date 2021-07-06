@@ -14,7 +14,7 @@ function FingerprintPage() {
   return (
     <Box>
       <Container>
-        <Header/>
+        <Header />
         <h1 className="intro">🕵️‍♀️ Fingerprint Recognition 🕵️</h1>
         <div className="info-container">
           <p className="info">Last updated : March, 2021</p>

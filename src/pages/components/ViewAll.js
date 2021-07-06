@@ -7,13 +7,17 @@ import React from "react";
 function ViewAll() {
   const history = useHistory();
   return (
-    <Container maxWidth="md">
+    <Container>
       <div className="button-wrapper">
         <button
           className="view-all-projects find-out-more"
           onClick={() => history.push("/portfolio/projects")}
         >
-          View All Projects <ViewCarouselIcon className="view-all-icon" style = {{ fontSize: "3vw" }} />
+          View All Projects{" "}
+          <ViewCarouselIcon
+            className="view-all-icon"
+            style={{ fontSize: "calc(20px + 0.7vw)" }}
+          />
         </button>
       </div>
     </Container>

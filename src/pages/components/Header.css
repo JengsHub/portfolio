@@ -1,11 +1,11 @@
 .header {
-    position: absolute;
-    background-image: linear-gradient(#fdf0ff, #ffffff);
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
-    height: 20vw;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    top: 6.5vw;
+  position: absolute;
+  background-image: linear-gradient(#fdf0ff, #ffffff);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  height: 20vw;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  top: calc(8px + 6.5vw);
 }

@@ -1,4 +1,5 @@
 import "../../App.css";
+import "../../about.css";
 import { Box, Container } from "@material-ui/core";
 import DataVis from "../../images/datavis.jpeg";
 import Japan from "../../images/Picture1.jpg";
@@ -12,7 +13,7 @@ function DataVisPage() {
   });
   return (
     <Box>
-      <Container >
+      <Container>
         <Header />
         <h1 className="intro">📊 Data Visualisation 📈</h1>
 
@@ -49,8 +50,8 @@ function DataVisPage() {
           poring over spreadsheets or reports. Data visualization is a quick and
           easy way to convey concepts in a universal manner.
         </p>
-        <div className="row">
-          <div className="column">
+        <div className="usability-sketch-container">
+          <div className="sketch-item">
             {/* eslint-disable react/jsx-no-target-blank */}
             <a
               href="https://public.tableau.com/views/Assignment1_15986936718370/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link"
@@ -64,7 +65,7 @@ function DataVisPage() {
             </a>
             <i className="caption">Japan as a tourism destination.</i>
           </div>
-          <div className="column">
+          <div className="sketch-item">
             <p className="indent center profile-text">
               By utilizing{" "}
               <a href="https://www.tableau.com/" target="_blank">
@@ -88,8 +89,8 @@ function DataVisPage() {
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="column">
+        <div className="usability-sketch-container">
+          <div className="sketch-item">
             <p className="indent center profile-text">
               With data obtained from{" "}
               <a href="https://data.worldbank.org" target="_blank">
@@ -108,7 +109,7 @@ function DataVisPage() {
               visualisation can be read by clicking on the image on the right.
             </p>
           </div>
-          <div className="column">
+          <div className="sketch-item">
             {/* eslint-disable react/jsx-no-target-blank */}
             <a
               href="https://jengshub.github.io/LifeExpectancyVisualisation/"

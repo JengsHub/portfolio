@@ -142,8 +142,8 @@ function TASProjectPage() {
         </p>
         <p className="indent profile-text">
           This project was started from scratch. Therefore the first meeting
-          with our stakeholders were crucial for the Product Management Team
-          to nail the product vision statement by understanding the needs and
+          with our stakeholders were crucial for the Product Management Team to
+          nail the product vision statement by understanding the needs and
           requirements for the application. We had also come up with a
           conceptual class diagram that consists of important domain concepts.
           Below is an example of the conceptual class diagram we came up with.
